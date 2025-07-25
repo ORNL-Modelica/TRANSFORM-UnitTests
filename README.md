@@ -10,7 +10,7 @@ In the past this was included in the TRANSFORM-Library Resources folder but now 
     - These are stored in the repository for change purposes but can be regenerated at will.
     - To regenerate the unit tests included in TRANSFORM run: `createUnitScripts.py`
     - This will create a folder called `Scripts` and place them there. These files are used for regression testing.
-    - This will also create a `runAll*.mo` file which can be run directly in the Modelica IDE, independent of the regression system.
+    - This will also create a `runAll*.mo` file which can be run directly in the Modelica IDE, independent of the regression system. This will be placed in the library path.
 1. Run regression tests
     - This is based off of the buildingspy regression system for now.
     - After installing buildingspy (pip install buildingspy):

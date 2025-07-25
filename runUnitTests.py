@@ -2,7 +2,7 @@
 """
 Created on Mon Aug 14 09:49:13 2017
 
-@author: vmg
+@author: Scott Greenwood
 """
 
 from pathlib import Path
@@ -26,22 +26,25 @@ def copy_folder_overwrite(src_folder: Path, dst_base_folder: Path):
     print("Copy complete.")
     
  
-
-    
+# Setup path to library and unit tests
 rt = r.Tester(check_html=False)#,tool="dymola")
 LibPath  = Path(r'..\TRANSFORM-Library\TRANSFORM')
-ResPath = Path(r'..\TRANSFORM-Library-ReferenceResults')
+ResPath = Path(r'..\TRANSFORM-UnitTests')
 
+# Copy unit scripts and reference results to repository as required by buildingspy
 copy_folder_overwrite(ResPath / 'ReferenceResults', LibPath / 'Resources')
 copy_folder_overwrite(ResPath / 'Scripts', LibPath / 'Resources')
 
+# Start timer
 start_time = time.time()
 
+# Run tests
 rt.showGUI(False)
 rt.setLibraryRoot(LibPath.resolve().as_posix())
-rt.setNumberOfThreads(8)
+rt.setNumberOfThreads(1)
 #rt.TestSinglePackage('Media.Solids.Examples.Hastelloy_N_Haynes', SinglePack=True)
 rt.run()
 
+# End timer
 end_time = time.time()
 print(f"Elapsed time: {end_time - start_time:.4f} seconds")
