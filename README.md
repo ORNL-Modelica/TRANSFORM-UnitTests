@@ -1,13 +1,14 @@
-# TRANSFORM-Library-ReferenceResults
+# TRANSFORM-UnitTests
 
-This repository holds the reference or "gold" result files for regression tests for the TRANSFORM-Library.
+This repository holds the reference or "gold" result files for regression tests for the Modelica Library TRANSFORM (TRANSFORM-Library/TRANSFORM).
 
 In the past this was included in the TRANSFORM-Library Resources folder but now resided here to reduce library bloat and avoid file path lenth issues.
 
 # Instructions
 
 1. Create unit scripts
-    - To generate the unit tests included in TRANSFORM run: `createUnitScripts.py`
+    - These are stored in the repository for change purposes but can be regenerated at will.
+    - To regenerate the unit tests included in TRANSFORM run: `createUnitScripts.py`
     - This will create a folder called `Scripts` and place them there. These files are used for regression testing.
     - This will also create a `runAll*.mo` file which can be run directly in the Modelica IDE, independent of the regression system.
 1. Run regression tests
