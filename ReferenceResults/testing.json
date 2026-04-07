@@ -1,0 +1,8 @@
+{
+  "simulator": "Dymola",
+  "simulators": {},
+  "dependencies": [],
+  "simulator_setup": [
+    "OutputCPUtime := true;"
+  ]
+}

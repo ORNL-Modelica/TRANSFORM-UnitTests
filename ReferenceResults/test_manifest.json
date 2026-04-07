@@ -1625,6 +1625,11 @@
       "model_id": "TRANSFORM.Utilities.Visualizers.PlotMap.Examples.PlotMap_withTrace_Test",
       "added": "2026-04-07",
       "status": "active"
+    },
+    "0326": {
+      "model_id": "TRANSFORM.Blocks.Examples.PulseSine_Test",
+      "added": "2026-04-07",
+      "status": "active"
     }
   }
 }
