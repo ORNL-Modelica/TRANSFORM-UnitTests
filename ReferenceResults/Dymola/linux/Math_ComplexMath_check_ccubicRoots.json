@@ -7,23 +7,32 @@
     "method": "Dassl",
     "number_of_intervals": null
   },
-  "n_vars": 2,
-  "time": [ 0.0, 1.0 ],
-  "variables": [
-    {
-      "index": 1,
-      "expression": "cat(\n        1,\n        {roots[2].re},\n        {roots[2].im})",
-      "values": [ -0.8067351579666138, -0.8067351579666138 ]
-    },
-    {
-      "index": 2,
-      "expression": "",
-      "values": [ 0.42356258630752563, 0.42356258630752563 ]
-    }
-  ],
   "statistics": {
     "simulation": {
       "numerical_jacobians": 0
     }
-  }
+  },
+  "n_vars": 2,
+  "time": [
+    0.0,
+    1.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "cat(\n        1,\n        {roots[2].re},\n        {roots[2].im})",
+      "values": [
+        -0.8067351579666138,
+        -0.8067351579666138
+      ]
+    },
+    {
+      "index": 2,
+      "expression": "",
+      "values": [
+        0.42356258630752563,
+        0.42356258630752563
+      ]
+    }
+  ]
 }

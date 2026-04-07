@@ -7,19 +7,25 @@
     "method": "Dassl",
     "number_of_intervals": 100
   },
-  "n_vars": 1,
-  "time": [ 0.0, 1.0 ],
-  "variables": [
-    {
-      "index": 1,
-      "expression": "steamTurbine.Q_mech",
-      "values": [ 56433084.0, 56433084.0 ]
-    }
-  ],
   "statistics": {
     "simulation": {
       "numerical_jacobians": 0,
       "number_of_continuous_time_states": 1
     }
-  }
+  },
+  "n_vars": 1,
+  "time": [
+    0.0,
+    1.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "steamTurbine.Q_mech",
+      "values": [
+        56433084.0,
+        56433084.0
+      ]
+    }
+  ]
 }

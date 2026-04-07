@@ -7,18 +7,24 @@
     "method": "Dassl",
     "number_of_intervals": null
   },
-  "n_vars": 1,
-  "time": [ 0.0, 1.0 ],
-  "variables": [
-    {
-      "index": 1,
-      "expression": "y",
-      "values": [ 3.0, 3.0 ]
-    }
-  ],
   "statistics": {
     "simulation": {
       "numerical_jacobians": 0
     }
-  }
+  },
+  "n_vars": 1,
+  "time": [
+    0.0,
+    1.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "y",
+      "values": [
+        3.0,
+        3.0
+      ]
+    }
+  ]
 }

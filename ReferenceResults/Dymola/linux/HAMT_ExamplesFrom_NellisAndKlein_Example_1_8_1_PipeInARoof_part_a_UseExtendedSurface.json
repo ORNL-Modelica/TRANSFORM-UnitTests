@@ -7,18 +7,24 @@
     "method": "Dassl",
     "number_of_intervals": 100
   },
-  "n_vars": 1,
-  "time": [ 0.0, 10.0 ],
-  "variables": [
-    {
-      "index": 1,
-      "expression": "biotNumber.y",
-      "values": [ 0.019999999552965164, 0.019999999552965164 ]
-    }
-  ],
   "statistics": {
     "simulation": {
       "numerical_jacobians": 0
     }
-  }
+  },
+  "n_vars": 1,
+  "time": [
+    0.0,
+    10.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "biotNumber.y",
+      "values": [
+        0.019999999552965164,
+        0.019999999552965164
+      ]
+    }
+  ]
 }

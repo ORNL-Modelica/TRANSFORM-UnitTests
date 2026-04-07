@@ -7,28 +7,40 @@
     "method": "Dassl",
     "number_of_intervals": null
   },
-  "n_vars": 3,
-  "time": [ 0.0, 1.0 ],
-  "variables": [
-    {
-      "index": 1,
-      "expression": "cat(1, mediums.d)",
-      "values": [ 1082.129638671875, 1082.129638671875 ]
-    },
-    {
-      "index": 2,
-      "expression": "",
-      "values": [ 1074.5433349609375, 1074.5433349609375 ]
-    },
-    {
-      "index": 3,
-      "expression": "",
-      "values": [ 1063.1639404296875, 1063.1639404296875 ]
-    }
-  ],
   "statistics": {
     "simulation": {
       "numerical_jacobians": 0
     }
-  }
+  },
+  "n_vars": 3,
+  "time": [
+    0.0,
+    1.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "cat(1, mediums.d)",
+      "values": [
+        1082.129638671875,
+        1082.129638671875
+      ]
+    },
+    {
+      "index": 2,
+      "expression": "",
+      "values": [
+        1074.5433349609375,
+        1074.5433349609375
+      ]
+    },
+    {
+      "index": 3,
+      "expression": "",
+      "values": [
+        1063.1639404296875,
+        1063.1639404296875
+      ]
+    }
+  ]
 }

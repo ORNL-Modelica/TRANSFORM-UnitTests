@@ -7,63 +7,96 @@
     "method": "Dassl",
     "number_of_intervals": null
   },
-  "n_vars": 10,
-  "time": [ 0.0, 10.0 ],
-  "variables": [
-    {
-      "index": 1,
-      "expression": "",
-      "values": [ 2.678938627243042, 2.678938627243042 ]
-    },
-    {
-      "index": 2,
-      "expression": "",
-      "values": [ 1.3541179895401, 1.3541179895401 ]
-    },
-    {
-      "index": 3,
-      "expression": "",
-      "values": [ 1.0, 1.0 ]
-    },
-    {
-      "index": 4,
-      "expression": "",
-      "values": [ 0.8929795026779175, 0.8929795026779175 ]
-    },
-    {
-      "index": 5,
-      "expression": "",
-      "values": [ 0.9027453064918518, 0.9027453064918518 ]
-    },
-    {
-      "index": 6,
-      "expression": "",
-      "values": [ 1.0, 1.0 ]
-    },
-    {
-      "index": 7,
-      "expression": "",
-      "values": [ 1.1906393766403198, 1.1906393766403198 ]
-    },
-    {
-      "index": 8,
-      "expression": "",
-      "values": [ 1.504575490951538, 1.504575490951538 ]
-    },
-    {
-      "index": 9,
-      "expression": "",
-      "values": [ 2.0, 2.0 ]
-    },
-    {
-      "index": 10,
-      "expression": "",
-      "values": [ 2.77815842628479, 2.77815842628479 ]
-    }
-  ],
   "statistics": {
     "simulation": {
       "numerical_jacobians": 0
     }
-  }
+  },
+  "n_vars": 10,
+  "time": [
+    0.0,
+    10.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "",
+      "values": [
+        2.678938627243042,
+        2.678938627243042
+      ]
+    },
+    {
+      "index": 2,
+      "expression": "",
+      "values": [
+        1.3541179895401,
+        1.3541179895401
+      ]
+    },
+    {
+      "index": 3,
+      "expression": "",
+      "values": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "index": 4,
+      "expression": "",
+      "values": [
+        0.8929795026779175,
+        0.8929795026779175
+      ]
+    },
+    {
+      "index": 5,
+      "expression": "",
+      "values": [
+        0.9027453064918518,
+        0.9027453064918518
+      ]
+    },
+    {
+      "index": 6,
+      "expression": "",
+      "values": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "index": 7,
+      "expression": "",
+      "values": [
+        1.1906393766403198,
+        1.1906393766403198
+      ]
+    },
+    {
+      "index": 8,
+      "expression": "",
+      "values": [
+        1.504575490951538,
+        1.504575490951538
+      ]
+    },
+    {
+      "index": 9,
+      "expression": "",
+      "values": [
+        2.0,
+        2.0
+      ]
+    },
+    {
+      "index": 10,
+      "expression": "",
+      "values": [
+        2.77815842628479,
+        2.77815842628479
+      ]
+    }
+  ]
 }

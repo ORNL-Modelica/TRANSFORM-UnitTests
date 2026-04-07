@@ -7,23 +7,32 @@
     "method": "Dassl",
     "number_of_intervals": null
   },
-  "n_vars": 2,
-  "time": [ 0.0, 1.0 ],
-  "variables": [
-    {
-      "index": 1,
-      "expression": "uAdT_lm.U",
-      "values": [ 38.106014251708984, 38.106014251708984 ]
-    },
-    {
-      "index": 2,
-      "expression": "uAdT_lm1.surfaceArea",
-      "values": [ 5.178817272186279, 5.178817272186279 ]
-    }
-  ],
   "statistics": {
     "simulation": {
       "numerical_jacobians": 0
     }
-  }
+  },
+  "n_vars": 2,
+  "time": [
+    0.0,
+    1.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "uAdT_lm.U",
+      "values": [
+        38.106014251708984,
+        38.106014251708984
+      ]
+    },
+    {
+      "index": 2,
+      "expression": "uAdT_lm1.surfaceArea",
+      "values": [
+        5.178817272186279,
+        5.178817272186279
+      ]
+    }
+  ]
 }

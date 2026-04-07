@@ -7,15 +7,6 @@
     "method": "Dassl",
     "number_of_intervals": 100
   },
-  "n_vars": 1,
-  "time": [ 0.0, 1.0 ],
-  "variables": [
-    {
-      "index": 1,
-      "expression": "display_Q_total.val",
-      "values": [ 69.43453979492188, 69.43453979492188 ]
-    }
-  ],
   "statistics": {
     "initialization": {
       "numerical_jacobians": 0,
@@ -24,5 +15,20 @@
     "simulation": {
       "numerical_jacobians": 0
     }
-  }
+  },
+  "n_vars": 1,
+  "time": [
+    0.0,
+    1.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "display_Q_total.val",
+      "values": [
+        69.43453979492188,
+        69.43453979492188
+      ]
+    }
+  ]
 }

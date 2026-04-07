@@ -7,15 +7,6 @@
     "method": "Dassl",
     "number_of_intervals": 100
   },
-  "n_vars": 1,
-  "time": [ 0.0, 10.0 ],
-  "variables": [
-    {
-      "index": 1,
-      "expression": "-T_melt.port.Q_flow",
-      "values": [ 497.31097412109375, 497.31097412109375 ]
-    }
-  ],
   "statistics": {
     "initialization": {
       "linear": "0, 0"
@@ -23,5 +14,20 @@
     "simulation": {
       "numerical_jacobians": 0
     }
-  }
+  },
+  "n_vars": 1,
+  "time": [
+    0.0,
+    10.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "-T_melt.port.Q_flow",
+      "values": [
+        497.31097412109375,
+        497.31097412109375
+      ]
+    }
+  ]
 }
