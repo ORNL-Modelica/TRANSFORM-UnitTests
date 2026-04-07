@@ -1,0 +1,43 @@
+{
+  "model_id": "TRANSFORM.HeatExchangers.Sizing.Examples.Sizing_CrossflowHX",
+  "last_updated": "2026-04-07T13:55:46.424647+00:00",
+  "simulation": {
+    "stop_time": 1.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": null
+  },
+  "n_vars": 2,
+  "time": [
+    0.0,
+    1.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "example_11_3.calcType.surfaceArea",
+      "values": [
+        38.22383117675781,
+        38.22383117675781
+      ]
+    },
+    {
+      "index": 2,
+      "expression": "example_11_4.calcType.T_1_cold",
+      "values": [
+        341.5777282714844,
+        341.5777282714844
+      ]
+    }
+  ],
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 0,
+      "nonlinear": "1, 2"
+    },
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  },
+  "test_id": "0158"
+}

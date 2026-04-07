@@ -1,0 +1,31 @@
+{
+  "model_id": "TRANSFORM.Units.Conversions.Functions.Mass_kg.Examples.check_kg",
+  "last_updated": "2026-04-07T13:55:46.645050+00:00",
+  "simulation": {
+    "stop_time": 1.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": null
+  },
+  "n_vars": 2,
+  "time": [
+    0.0,
+    1.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "",
+      "values": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  },
+  "test_id": "0264"
+}

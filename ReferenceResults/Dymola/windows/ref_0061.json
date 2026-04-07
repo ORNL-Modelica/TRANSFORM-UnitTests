@@ -1,0 +1,63 @@
+{
+  "model_id": "TRANSFORM.Fluid.Pipes.Examples.GenericPipe_Tests.nParallel_StateBoundary",
+  "last_updated": "2026-04-07T13:55:46.199264+00:00",
+  "simulation": {
+    "stop_time": 1.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": 100
+  },
+  "n_vars": 4,
+  "time": [
+    0.0,
+    1.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "pipe_single.massPorts[\n        4,1].C[1]",
+      "values": [
+        231.3000030517578,
+        231.3000030517578
+      ]
+    },
+    {
+      "index": 2,
+      "expression": "pipe_nParallel.massPorts[4,1].C[1]",
+      "values": [
+        202.63900756835938,
+        202.63900756835938
+      ]
+    },
+    {
+      "index": 3,
+      "expression": "pipe_single.heatPorts[4,1].T",
+      "values": [
+        615.5180053710938,
+        615.5180053710938
+      ]
+    },
+    {
+      "index": 4,
+      "expression": "pipe_nParallel.heatPorts[4,1].T",
+      "values": [
+        329.06451416015625,
+        329.06451416015625
+      ]
+    }
+  ],
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 2,
+      "nonlinear": "21, 21",
+      "linear": "10, 10"
+    },
+    "simulation": {
+      "numerical_jacobians": 0,
+      "nonlinear": "4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4",
+      "number_of_continuous_time_states": 80,
+      "linear": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"
+    }
+  },
+  "test_id": "0061"
+}

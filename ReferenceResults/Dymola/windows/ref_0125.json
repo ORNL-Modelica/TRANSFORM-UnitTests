@@ -1,0 +1,31 @@
+{
+  "model_id": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.Example_1_7_1_BentBeamActuator.part_a_AppropriateToUseExtendedSurface",
+  "last_updated": "2026-04-07T13:55:46.345958+00:00",
+  "simulation": {
+    "stop_time": 10.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": 100
+  },
+  "n_vars": 1,
+  "time": [
+    0.0,
+    10.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "biotNumber.y",
+      "values": [
+        3.12499992105586e-06,
+        3.12499992105586e-06
+      ]
+    }
+  ],
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  },
+  "test_id": "0125"
+}

@@ -1,0 +1,47 @@
+{
+  "model_id": "TRANSFORM.Media.Fluids.Examples.LinearDOWTHERM_A_95C_pT",
+  "last_updated": "2026-04-07T13:55:46.520117+00:00",
+  "simulation": {
+    "stop_time": 1.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": null
+  },
+  "n_vars": 3,
+  "time": [
+    0.0,
+    1.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "cat(1, mediums.d)",
+      "values": [
+        1064.616943359375,
+        1064.616943359375
+      ]
+    },
+    {
+      "index": 2,
+      "expression": "",
+      "values": [
+        997.7186889648438,
+        997.7186889648438
+      ]
+    },
+    {
+      "index": 3,
+      "expression": "",
+      "values": [
+        930.8204345703125,
+        930.8204345703125
+      ]
+    }
+  ],
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  },
+  "test_id": "0202"
+}
