@@ -1,0 +1,39 @@
+{
+  "model_id": "TRANSFORM.Fluid.ClosureRelations.HeatTransfer.Models.Examples.Lumped.check_Ideal_FL",
+  "last_updated": "2026-04-07T13:55:46.142903+00:00",
+  "simulation": {
+    "stop_time": 1.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": null
+  },
+  "n_vars": 4,
+  "time": [ 0.0, 1.0 ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "heatTransfer.alphas[\n        1]",
+      "values": [ 3.4028234663852886e+38, 3.4028234663852886e+38 ]
+    },
+    {
+      "index": 2,
+      "expression": "heatTransfer.alphas[2]",
+      "values": [ 3.4028234663852886e+38, 3.4028234663852886e+38 ]
+    },
+    {
+      "index": 3,
+      "expression": "heatTransfer.Q_flows[1]",
+      "values": [ 10.0, 10.0 ]
+    },
+    {
+      "index": 4,
+      "expression": "heatTransfer.Q_flows[\n        2]",
+      "values": [ 10.0, 10.0 ]
+    }
+  ],
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  }
+}

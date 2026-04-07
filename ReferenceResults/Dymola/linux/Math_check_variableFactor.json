@@ -1,0 +1,49 @@
+{
+  "model_id": "TRANSFORM.Math.Examples.check_variableFactor",
+  "last_updated": "2026-04-07T14:07:34.246209+00:00",
+  "simulation": {
+    "stop_time": 10.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": null
+  },
+  "n_vars": 6,
+  "time": [ 0.0, 10.0 ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "if df_1 then 1 else 0",
+      "values": [ 1.0, 1.0 ]
+    },
+    {
+      "index": 2,
+      "expression": "if\n        df_2 then 1 else 0",
+      "values": [ 1.0, 1.0 ]
+    },
+    {
+      "index": 3,
+      "expression": "if df_3 then 1 else 0",
+      "values": [ 1.0, 1.0 ]
+    },
+    {
+      "index": 4,
+      "expression": "if df_4 then 1 else 0",
+      "values": [ 1.0, 1.0 ]
+    },
+    {
+      "index": 5,
+      "expression": "if df_5\n         then 1 else 0",
+      "values": [ 1.0, 1.0 ]
+    },
+    {
+      "index": 6,
+      "expression": "if df_6 then 1 else 0",
+      "values": [ 1.0, 1.0 ]
+    }
+  ],
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  }
+}

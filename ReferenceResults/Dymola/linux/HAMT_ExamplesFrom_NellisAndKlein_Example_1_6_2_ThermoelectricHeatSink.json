@@ -1,0 +1,27 @@
+{
+  "model_id": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.Example_1_6_2_ThermoelectricHeatSink",
+  "last_updated": "2026-04-07T14:07:32.327685+00:00",
+  "simulation": {
+    "stop_time": 10.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": 100
+  },
+  "n_vars": 1,
+  "time": [ 0.0, 10.0 ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "T_infinity.port.Q_flow",
+      "values": [ 2.9232840538024902, 2.9232840538024902 ]
+    }
+  ],
+  "statistics": {
+    "initialization": {
+      "linear": 0
+    },
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  }
+}

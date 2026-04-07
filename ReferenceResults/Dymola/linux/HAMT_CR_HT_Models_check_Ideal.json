@@ -1,0 +1,29 @@
+{
+  "model_id": "TRANSFORM.HeatAndMassTransfer.ClosureRelations.HeatTransfer.Models.Examples.check_Ideal",
+  "last_updated": "2026-04-07T14:07:31.886698+00:00",
+  "simulation": {
+    "stop_time": 1.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": null
+  },
+  "n_vars": 2,
+  "time": [ 0.0, 1.0 ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "",
+      "values": [ 3.4028234663852886e+38, 3.4028234663852886e+38 ]
+    },
+    {
+      "index": 2,
+      "expression": "",
+      "values": [ 3.4028234663852886e+38, 3.4028234663852886e+38 ]
+    }
+  ],
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  }
+}

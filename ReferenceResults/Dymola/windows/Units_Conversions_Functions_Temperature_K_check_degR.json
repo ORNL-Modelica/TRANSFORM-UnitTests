@@ -1,0 +1,24 @@
+{
+  "model_id": "TRANSFORM.Units.Conversions.Functions.Temperature_K.Examples.check_degR",
+  "last_updated": "2026-04-07T13:55:46.736622+00:00",
+  "simulation": {
+    "stop_time": 1.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": null
+  },
+  "n_vars": 2,
+  "time": [ 0.0, 1.0 ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "",
+      "values": [ 1.7999999523162842, 1.7999999523162842 ]
+    }
+  ],
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "model_id": "TRANSFORM.Math.Examples.check_logspace",
+  "last_updated": "2026-04-07T14:07:33.709911+00:00",
+  "simulation": {
+    "stop_time": 1.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": 100
+  },
+  "n_vars": 10,
+  "time": [ 0.0, 1.0 ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "",
+      "values": [ 1.0, 1.0 ]
+    },
+    {
+      "index": 2,
+      "expression": "",
+      "values": [ 1.2915496826171875, 1.2915496826171875 ]
+    },
+    {
+      "index": 3,
+      "expression": "",
+      "values": [ 1.6681005954742432, 1.6681005954742432 ]
+    },
+    {
+      "index": 4,
+      "expression": "",
+      "values": [ 2.1544346809387207, 2.1544346809387207 ]
+    },
+    {
+      "index": 5,
+      "expression": "",
+      "values": [ 2.782559394836426, 2.782559394836426 ]
+    },
+    {
+      "index": 6,
+      "expression": "",
+      "values": [ 3.59381365776062, 3.59381365776062 ]
+    },
+    {
+      "index": 7,
+      "expression": "",
+      "values": [ 4.6415886878967285, 4.6415886878967285 ]
+    },
+    {
+      "index": 8,
+      "expression": "",
+      "values": [ 5.994842529296875, 5.994842529296875 ]
+    },
+    {
+      "index": 9,
+      "expression": "",
+      "values": [ 7.742636680603027, 7.742636680603027 ]
+    },
+    {
+      "index": 10,
+      "expression": "",
+      "values": [ 10.0, 10.0 ]
+    }
+  ],
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  }
+}

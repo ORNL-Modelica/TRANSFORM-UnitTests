@@ -1,0 +1,64 @@
+{
+  "model_id": "TRANSFORM.Media.IdealGases.Examples.HeXeAlternate",
+  "last_updated": "2026-04-07T13:55:46.546540+00:00",
+  "simulation": {
+    "stop_time": 1.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": null
+  },
+  "n_vars": 9,
+  "time": [ 0.0, 1.0 ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "cat(\n        1,\n        mediums.d,\n        eta,\n        lambda)",
+      "values": [ 0.35285043716430664, 0.35285043716430664 ]
+    },
+    {
+      "index": 2,
+      "expression": "",
+      "values": [ 0.08821260929107666, 0.08821260929107666 ]
+    },
+    {
+      "index": 3,
+      "expression": "",
+      "values": [ 0.035285044461488724, 0.035285044461488724 ]
+    },
+    {
+      "index": 4,
+      "expression": "",
+      "values": [ 3.36515877279453e-05, 3.36515877279453e-05 ]
+    },
+    {
+      "index": 5,
+      "expression": "",
+      "values": [ 8.628390787634999e-05, 8.628390787634999e-05 ]
+    },
+    {
+      "index": 6,
+      "expression": "",
+      "values": [ 0.00015639707271475345, 0.00015639707271475345 ]
+    },
+    {
+      "index": 7,
+      "expression": "",
+      "values": [ 0.011834513396024704, 0.011834513396024704 ]
+    },
+    {
+      "index": 8,
+      "expression": "",
+      "values": [ 0.014603701420128345, 0.014603701420128345 ]
+    },
+    {
+      "index": 9,
+      "expression": "",
+      "values": [ 0.026483329012989998, 0.026483329012989998 ]
+    }
+  ],
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  }
+}
