@@ -1,11 +1,23 @@
 {
   "model_id": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_IncroperaAndDeWitt.Example_8_6_UninsulatedDuctwithMass",
+  "test_id": "0112",
   "last_updated": "2026-04-07T13:55:46.317084+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": 100
+  },
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 1,
+      "nonlinear": 20,
+      "linear": 10
+    },
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 30
+    }
   },
   "n_vars": 2,
   "time": [
@@ -326,17 +338,5 @@
         0.9005413055419922
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "numerical_jacobians": 1,
-      "nonlinear": 20,
-      "linear": 10
-    },
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 30
-    }
-  },
-  "test_id": "0112"
+  ]
 }

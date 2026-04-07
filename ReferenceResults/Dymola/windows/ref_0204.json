@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.Media.Fluids.Examples.LinearFLiBe_12Th_05U_pT",
+  "test_id": "0204",
   "last_updated": "2026-04-07T13:55:46.524190+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 3,
   "time": [
@@ -37,11 +43,5 @@
         2866.267578125
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0204"
+  ]
 }

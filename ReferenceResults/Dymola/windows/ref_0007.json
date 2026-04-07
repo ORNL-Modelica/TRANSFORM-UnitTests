@@ -1,11 +1,18 @@
 {
   "model_id": "TRANSFORM.Blocks.Examples.MFBS_Test",
+  "test_id": "0007",
   "last_updated": "2026-04-07T13:55:46.073366+00:00",
   "simulation": {
     "stop_time": 10.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0,
+      "linear": 0
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,12 +226,5 @@
         1.0
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0,
-      "linear": 0
-    }
-  },
-  "test_id": "0007"
+  ]
 }

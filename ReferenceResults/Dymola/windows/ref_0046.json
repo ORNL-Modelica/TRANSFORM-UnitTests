@@ -1,11 +1,25 @@
 {
   "model_id": "TRANSFORM.Fluid.Examples.MSLFluid.PumpingSystem",
+  "test_id": "0046",
   "last_updated": "2026-04-07T13:55:46.166578+00:00",
   "simulation": {
     "stop_time": 2000.0,
     "tolerance": 1e-06,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 2,
+      "nonlinear": "1, 1",
+      "linear": 0
+    },
+    "simulation": {
+      "numerical_jacobians": 2,
+      "nonlinear": "1, 1, 1",
+      "number_of_continuous_time_states": 5,
+      "linear": "2, 2"
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,19 +233,5 @@
         644374.5625
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "numerical_jacobians": 2,
-      "nonlinear": "1, 1",
-      "linear": 0
-    },
-    "simulation": {
-      "numerical_jacobians": 2,
-      "nonlinear": "1, 1, 1",
-      "number_of_continuous_time_states": 5,
-      "linear": "2, 2"
-    }
-  },
-  "test_id": "0046"
+  ]
 }

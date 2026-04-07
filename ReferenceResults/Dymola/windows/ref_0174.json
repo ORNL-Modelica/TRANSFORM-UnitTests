@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.Math.Examples.check_integral_TrapezoidalRule",
+  "test_id": "0174",
   "last_updated": "2026-04-07T13:55:46.454293+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": 100
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 1,
   "time": [
@@ -21,11 +27,5 @@
         5.21999979019165
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0174"
+  ]
 }

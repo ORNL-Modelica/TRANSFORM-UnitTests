@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.HeatAndMassTransfer.ClosureRelations.HeatTransfer.Models.Examples.Utilities.Groeneveld2001LUT_FilmBoilingCoefficient",
+  "test_id": "0102",
   "last_updated": "2026-04-07T13:55:46.300444+00:00",
   "simulation": {
     "stop_time": 10.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 5,
   "time": [
@@ -647,11 +653,5 @@
         5564.97119140625
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0102"
+  ]
 }

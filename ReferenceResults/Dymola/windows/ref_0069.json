@@ -1,11 +1,19 @@
 {
   "model_id": "TRANSFORM.Fluid.Pipes.Examples.TransportDelayPipeTests.Test2_MultiSpeciesMultiTrace",
+  "test_id": "0069",
   "last_updated": "2026-04-07T13:55:46.216851+00:00",
   "simulation": {
     "stop_time": 20.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 1,
+      "nonlinear": 9,
+      "number_of_continuous_time_states": 1
+    }
   },
   "n_vars": 3,
   "time": [
@@ -433,13 +441,5 @@
         -0.4419481158256531
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 1,
-      "nonlinear": 9,
-      "number_of_continuous_time_states": 1
-    }
-  },
-  "test_id": "0069"
+  ]
 }

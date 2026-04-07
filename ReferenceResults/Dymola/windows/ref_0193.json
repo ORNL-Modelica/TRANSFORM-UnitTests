@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.Math.Examples.check_replaceArrayValues",
+  "test_id": "0193",
   "last_updated": "2026-04-07T13:55:46.495261+00:00",
   "simulation": {
     "stop_time": 10.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 6,
   "time": [
@@ -61,11 +67,5 @@
         2.0
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0193"
+  ]
 }

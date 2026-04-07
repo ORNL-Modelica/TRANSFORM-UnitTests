@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.Units.Conversions.Functions.Pressure_Pa.Examples.check_atm",
+  "test_id": "0292",
   "last_updated": "2026-04-07T13:55:46.708967+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 2,
   "time": [
@@ -21,11 +27,5 @@
         9.86923259915784e-06
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0292"
+  ]
 }

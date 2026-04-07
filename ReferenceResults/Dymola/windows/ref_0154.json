@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.HeatExchangers.Examples.UAdT_lm_Example_11_1",
+  "test_id": "0154",
   "last_updated": "2026-04-07T13:55:46.413962+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 2,
   "time": [
@@ -29,11 +35,5 @@
         5.178817272186279
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0154"
+  ]
 }

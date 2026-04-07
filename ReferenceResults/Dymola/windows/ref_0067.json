@@ -1,11 +1,19 @@
 {
   "model_id": "TRANSFORM.Fluid.Pipes.Examples.TransportDelayPipeTests.CheckDelayTime",
+  "test_id": "0067",
   "last_updated": "2026-04-07T13:55:46.212270+00:00",
   "simulation": {
     "stop_time": 11.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 1,
+      "nonlinear": 1,
+      "number_of_continuous_time_states": 1
+    }
   },
   "n_vars": 3,
   "time": [
@@ -433,13 +441,5 @@
         1.0
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 1,
-      "nonlinear": 1,
-      "number_of_continuous_time_states": 1
-    }
-  },
-  "test_id": "0067"
+  ]
 }

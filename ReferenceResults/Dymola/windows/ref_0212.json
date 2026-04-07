@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.Media.Fluids.Examples.LinearWaterHot_pT",
+  "test_id": "0212",
   "last_updated": "2026-04-07T13:55:46.540400+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 3,
   "time": [
@@ -37,11 +43,5 @@
         718.6568603515625
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0212"
+  ]
 }

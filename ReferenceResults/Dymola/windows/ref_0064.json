@@ -1,11 +1,20 @@
 {
   "model_id": "TRANSFORM.Fluid.Pipes.Examples.GenericPipe_Tests.withWall",
+  "test_id": "0064",
   "last_updated": "2026-04-07T13:55:46.205744+00:00",
   "simulation": {
     "stop_time": 100.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0,
+      "nonlinear": 1,
+      "number_of_continuous_time_states": 5,
+      "linear": 0
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,14 +228,5 @@
         308.5597839355469
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0,
-      "nonlinear": 1,
-      "number_of_continuous_time_states": 5,
-      "linear": 0
-    }
-  },
-  "test_id": "0064"
+  ]
 }

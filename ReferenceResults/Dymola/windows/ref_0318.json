@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.Units.Conversions.Functions.Volume_m3.Examples.check_ft3",
+  "test_id": "0318",
   "last_updated": "2026-04-07T13:55:46.764768+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 2,
   "time": [
@@ -21,11 +27,5 @@
         35.314666748046875
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0318"
+  ]
 }

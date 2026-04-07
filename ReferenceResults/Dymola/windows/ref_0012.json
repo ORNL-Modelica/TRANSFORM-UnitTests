@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.Controls.Examples.FeedForward.getOpening_ValveIncompressible_Test",
+  "test_id": "0012",
   "last_updated": "2026-04-07T13:55:46.083310+00:00",
   "simulation": {
     "stop_time": 10.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 2,
   "time": [
@@ -326,11 +332,5 @@
         1.0024911165237427
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0012"
+  ]
 }

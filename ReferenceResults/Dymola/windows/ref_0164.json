@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.Math.Examples.check_cspline",
+  "test_id": "0164",
   "last_updated": "2026-04-07T13:55:46.433038+00:00",
   "simulation": {
     "stop_time": 100.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,11 +225,5 @@
         152.0
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0164"
+  ]
 }

@@ -1,11 +1,22 @@
 {
   "model_id": "TRANSFORM.Fluid.Examples.MSLFluid.InverseParameterization",
+  "test_id": "0045",
   "last_updated": "2026-04-07T13:55:46.164522+00:00",
   "simulation": {
     "stop_time": 10.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 2,
+      "nonlinear": "4, 1"
+    },
+    "simulation": {
+      "numerical_jacobians": 2,
+      "nonlinear": "4, 1"
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,16 +230,5 @@
         -1.465049386024475
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "numerical_jacobians": 2,
-      "nonlinear": "4, 1"
-    },
-    "simulation": {
-      "numerical_jacobians": 2,
-      "nonlinear": "4, 1"
-    }
-  },
-  "test_id": "0045"
+  ]
 }

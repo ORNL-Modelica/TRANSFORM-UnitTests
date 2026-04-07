@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.HeatAndMassTransfer.ClosureRelations.HeatTransfer.Functions.Examples.SinglePhase.ExternalFlow.LiquidMetal.check_Nu_FFTF",
+  "test_id": "0087",
   "last_updated": "2026-04-07T13:55:46.258076+00:00",
   "simulation": {
     "stop_time": 2.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": 160
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,11 +225,5 @@
         4.398131370544434
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0087"
+  ]
 }

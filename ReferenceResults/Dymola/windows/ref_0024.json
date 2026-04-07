@@ -1,11 +1,24 @@
 {
   "model_id": "TRANSFORM.Examples.LightWaterSmallModularReactor.Examples.IRIS_Default_Teststandalone",
+  "test_id": "0024",
   "last_updated": "2026-04-07T13:55:46.110896+00:00",
   "simulation": {
     "stop_time": 100.0,
     "tolerance": 0.0001,
     "method": "Esdirk45a",
     "number_of_intervals": 100
+  },
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 1,
+      "nonlinear": 3
+    },
+    "simulation": {
+      "numerical_jacobians": 1,
+      "nonlinear": 3,
+      "number_of_continuous_time_states": 274,
+      "linear": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"
+    }
   },
   "n_vars": 2,
   "time": [
@@ -326,18 +339,5 @@
         986964352.0
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "numerical_jacobians": 1,
-      "nonlinear": 3
-    },
-    "simulation": {
-      "numerical_jacobians": 1,
-      "nonlinear": 3,
-      "number_of_continuous_time_states": 274,
-      "linear": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"
-    }
-  },
-  "test_id": "0024"
+  ]
 }

@@ -1,11 +1,23 @@
 {
   "model_id": "TRANSFORM.Fluid.Machines.Examples.PumpTests.Pump_Mechanical_Test",
+  "test_id": "0054",
   "last_updated": "2026-04-07T13:55:46.184040+00:00",
   "simulation": {
     "stop_time": 10.0,
     "tolerance": 1e-06,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 1,
+      "nonlinear": 2
+    },
+    "simulation": {
+      "numerical_jacobians": 1,
+      "nonlinear": 1,
+      "number_of_continuous_time_states": 1
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,17 +231,5 @@
         700000.0
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "numerical_jacobians": 1,
-      "nonlinear": 2
-    },
-    "simulation": {
-      "numerical_jacobians": 1,
-      "nonlinear": 1,
-      "number_of_continuous_time_states": 1
-    }
-  },
-  "test_id": "0054"
+  ]
 }

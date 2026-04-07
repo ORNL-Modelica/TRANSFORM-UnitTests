@@ -1,11 +1,24 @@
 {
   "model_id": "TRANSFORM.Fluid.Volumes.Examples.Condenser_Test",
+  "test_id": "0074",
   "last_updated": "2026-04-07T13:55:46.227678+00:00",
   "simulation": {
     "stop_time": 1000.0,
     "tolerance": 1e-08,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 0,
+      "nonlinear": 1
+    },
+    "simulation": {
+      "numerical_jacobians": 2,
+      "nonlinear": "1, 2, 0, 1",
+      "number_of_continuous_time_states": 6,
+      "linear": "0, 0"
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,18 +232,5 @@
         0.09776487201452255
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "numerical_jacobians": 0,
-      "nonlinear": 1
-    },
-    "simulation": {
-      "numerical_jacobians": 2,
-      "nonlinear": "1, 2, 0, 1",
-      "number_of_continuous_time_states": 6,
-      "linear": "0, 0"
-    }
-  },
-  "test_id": "0074"
+  ]
 }

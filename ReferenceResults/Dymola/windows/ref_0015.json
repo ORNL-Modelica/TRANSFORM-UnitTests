@@ -1,11 +1,18 @@
 {
   "model_id": "TRANSFORM.Controls.Examples.LimPID_Hysteresis_Test",
+  "test_id": "0015",
   "last_updated": "2026-04-07T13:55:46.087755+00:00",
   "simulation": {
     "stop_time": 86400.0,
     "tolerance": 1e-06,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 2
+    }
   },
   "n_vars": 2,
   "time": [
@@ -326,12 +333,5 @@
         313.1496276855469
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 2
-    }
-  },
-  "test_id": "0015"
+  ]
 }

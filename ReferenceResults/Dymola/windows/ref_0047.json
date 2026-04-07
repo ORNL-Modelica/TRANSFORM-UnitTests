@@ -1,11 +1,23 @@
 {
   "model_id": "TRANSFORM.Fluid.Examples.MSLFluid.RoomCO2WithControls",
+  "test_id": "0047",
   "last_updated": "2026-04-07T13:55:46.168550+00:00",
   "simulation": {
     "stop_time": 86400.0,
     "tolerance": 1e-06,
     "method": "Esdirk45a",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 1,
+      "nonlinear": 1
+    },
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 26,
+      "linear": "2, 2, 2, 2, 2"
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,17 +231,5 @@
         0.0015112252440303564
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "numerical_jacobians": 1,
-      "nonlinear": 1
-    },
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 26,
-      "linear": "2, 2, 2, 2, 2"
-    }
-  },
-  "test_id": "0047"
+  ]
 }

@@ -1,11 +1,18 @@
 {
   "model_id": "TRANSFORM.HeatAndMassTransfer.Examples.WindingDiscretizedModels.Winding_123D_variableArea",
+  "test_id": "0143",
   "last_updated": "2026-04-07T13:55:46.390949+00:00",
   "simulation": {
     "stop_time": 100.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": 100
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 450
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,12 +226,5 @@
         357.01025390625
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 450
-    }
-  },
-  "test_id": "0143"
+  ]
 }

@@ -1,11 +1,18 @@
 {
   "model_id": "TRANSFORM.Examples.Demonstrations.Examples.LorenzSystem_Test",
+  "test_id": "0022",
   "last_updated": "2026-04-07T13:55:46.106459+00:00",
   "simulation": {
     "stop_time": 100.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": 10000
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 3
+    }
   },
   "n_vars": 3,
   "time": [
@@ -433,12 +440,5 @@
         18.46458625793457
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 3
-    }
-  },
-  "test_id": "0022"
+  ]
 }

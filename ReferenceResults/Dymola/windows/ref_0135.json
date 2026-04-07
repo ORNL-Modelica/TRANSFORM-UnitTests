@@ -1,11 +1,22 @@
 {
   "model_id": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.Figure_1_14_NumericalSolutionsMT",
+  "test_id": "0135",
   "last_updated": "2026-04-07T13:55:46.368757+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": 100
+  },
+  "statistics": {
+    "initialization": {
+      "linear": 22
+    },
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 60,
+      "linear": "0, 0"
+    }
   },
   "n_vars": 3,
   "time": [
@@ -433,16 +444,5 @@
         1.5
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "linear": 22
-    },
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 60,
-      "linear": "0, 0"
-    }
-  },
-  "test_id": "0135"
+  ]
 }

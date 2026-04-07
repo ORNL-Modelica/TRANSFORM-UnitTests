@@ -1,11 +1,19 @@
 {
   "model_id": "TRANSFORM.Fluid.Volumes.Examples.SimpleVolume_Test",
+  "test_id": "0085",
   "last_updated": "2026-04-07T13:55:46.251383+00:00",
   "simulation": {
     "stop_time": 100.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 4,
+      "linear": "0, 0"
+    }
   },
   "n_vars": 2,
   "time": [
@@ -326,13 +334,5 @@
         100126.7265625
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 4,
-      "linear": "0, 0"
-    }
-  },
-  "test_id": "0085"
+  ]
 }

@@ -1,11 +1,23 @@
 {
   "model_id": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.Example_1_7_1_BentBeamActuator.part_c_ThermalElongation",
+  "test_id": "0127",
   "last_updated": "2026-04-07T13:55:46.350225+00:00",
   "simulation": {
     "stop_time": 10.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": 100
+  },
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 1,
+      "nonlinear": 20
+    },
+    "simulation": {
+      "numerical_jacobians": 1,
+      "nonlinear": 20,
+      "number_of_continuous_time_states": 20
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,17 +231,5 @@
         9.87266776064644e-06
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "numerical_jacobians": 1,
-      "nonlinear": 20
-    },
-    "simulation": {
-      "numerical_jacobians": 1,
-      "nonlinear": 20,
-      "number_of_continuous_time_states": 20
-    }
-  },
-  "test_id": "0127"
+  ]
 }

@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.Media.Fluids.Examples.LinearNaClKClMgCl2_30_20_50_pT",
+  "test_id": "0209",
   "last_updated": "2026-04-07T13:55:46.534293+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 3,
   "time": [
@@ -37,11 +43,5 @@
         1461.111083984375
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0209"
+  ]
 }

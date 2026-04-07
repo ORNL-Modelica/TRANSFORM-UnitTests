@@ -1,11 +1,24 @@
 {
   "model_id": "TRANSFORM.Fluid.Examples.MSLFluid.IncompressibleFluidNetwork",
+  "test_id": "0044",
   "last_updated": "2026-04-07T13:55:46.162123+00:00",
   "simulation": {
     "stop_time": 200.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "initialization": {
+      "numerical_jacobians": 1,
+      "nonlinear": 9
+    },
+    "simulation": {
+      "numerical_jacobians": 1,
+      "nonlinear": 9,
+      "number_of_continuous_time_states": 33,
+      "linear": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"
+    }
   },
   "n_vars": 2,
   "time": [
@@ -326,18 +339,5 @@
         109682.0625
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "numerical_jacobians": 1,
-      "nonlinear": 9
-    },
-    "simulation": {
-      "numerical_jacobians": 1,
-      "nonlinear": 9,
-      "number_of_continuous_time_states": 33,
-      "linear": "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0"
-    }
-  },
-  "test_id": "0044"
+  ]
 }

@@ -1,11 +1,21 @@
 {
   "model_id": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.Example_1_7_1_BentBeamActuator.part_b_TemperatureAndPosition",
+  "test_id": "0126",
   "last_updated": "2026-04-07T13:55:46.347959+00:00",
   "simulation": {
     "stop_time": 10.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": 100
+  },
+  "statistics": {
+    "initialization": {
+      "linear": 20
+    },
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 20
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,15 +229,5 @@
         1031.525146484375
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "linear": 20
-    },
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 20
-    }
-  },
-  "test_id": "0126"
+  ]
 }

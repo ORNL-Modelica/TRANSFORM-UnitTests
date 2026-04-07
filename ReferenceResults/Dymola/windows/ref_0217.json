@@ -1,11 +1,17 @@
 {
   "model_id": "TRANSFORM.Media.Solids.Examples.Inconel690",
+  "test_id": "0217",
   "last_updated": "2026-04-07T13:55:46.550753+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
   },
   "n_vars": 6,
   "time": [
@@ -61,11 +67,5 @@
         34.95416259765625
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0
-    }
-  },
-  "test_id": "0217"
+  ]
 }

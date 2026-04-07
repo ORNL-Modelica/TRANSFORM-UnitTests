@@ -1,11 +1,21 @@
 {
   "model_id": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.TransientResponseOfATankWall",
+  "test_id": "0140",
   "last_updated": "2026-04-07T13:55:46.381975+00:00",
   "simulation": {
     "stop_time": 50.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "initialization": {
+      "linear": 9
+    },
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 10
+    }
   },
   "n_vars": 1,
   "time": [
@@ -219,15 +229,5 @@
         401.89654541015625
       ]
     }
-  ],
-  "statistics": {
-    "initialization": {
-      "linear": 9
-    },
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 10
-    }
-  },
-  "test_id": "0140"
+  ]
 }

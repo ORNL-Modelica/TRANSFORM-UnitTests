@@ -1,11 +1,18 @@
 {
   "model_id": "TRANSFORM.Blocks.Examples.IntegratorWithReset",
+  "test_id": "0004",
   "last_updated": "2026-04-07T13:55:46.063053+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 1e-06,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 4
+    }
   },
   "n_vars": 4,
   "time": [
@@ -540,12 +547,5 @@
         6.0
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 4
-    }
-  },
-  "test_id": "0004"
+  ]
 }

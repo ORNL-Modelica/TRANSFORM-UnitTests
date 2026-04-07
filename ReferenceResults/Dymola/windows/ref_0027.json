@@ -1,11 +1,18 @@
 {
   "model_id": "TRANSFORM.Fluid.ClosureRelations.HeatTransfer.Models.Examples.DistributedPipe_1D_MultiTransferSurface.check_Alphas_TwoPhase_3Region_CHFtransition_F1D",
+  "test_id": "0027",
   "last_updated": "2026-04-07T13:55:46.117941+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0,
+      "nonlinear": "1, 1"
+    }
   },
   "n_vars": 4,
   "time": [
@@ -540,12 +547,5 @@
         -1.0425513982772827
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0,
-      "nonlinear": "1, 1"
-    }
-  },
-  "test_id": "0027"
+  ]
 }

@@ -1,11 +1,18 @@
 {
   "model_id": "TRANSFORM.Nuclear.ReactorKinetics.Examples.Reactivity.FissionProducts_Test",
+  "test_id": "0230",
   "last_updated": "2026-04-07T13:55:46.583247+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
     "method": "Dassl",
     "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0,
+      "number_of_continuous_time_states": 3
+    }
   },
   "n_vars": 3,
   "time": [
@@ -433,12 +440,5 @@
         1.95241137363254e+19
       ]
     }
-  ],
-  "statistics": {
-    "simulation": {
-      "numerical_jacobians": 0,
-      "number_of_continuous_time_states": 3
-    }
-  },
-  "test_id": "0230"
+  ]
 }
