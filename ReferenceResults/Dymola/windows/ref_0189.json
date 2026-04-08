@@ -1,0 +1,63 @@
+{
+  "model_id": "TRANSFORM.Math.Examples.check_radialspace",
+  "test_id": "0189",
+  "last_updated": "2026-04-07T13:55:46.486245+00:00",
+  "simulation": {
+    "stop_time": 10.0,
+    "tolerance": 0.0001,
+    "method": "Dassl",
+    "number_of_intervals": null
+  },
+  "statistics": {
+    "simulation": {
+      "numerical_jacobians": 0
+    }
+  },
+  "n_vars": 5,
+  "time": [
+    0.0,
+    10.0
+  ],
+  "variables": [
+    {
+      "index": 1,
+      "expression": "",
+      "values": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 2,
+      "expression": "",
+      "values": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 3,
+      "expression": "",
+      "values": [
+        0.7071067690849304,
+        0.7071067690849304
+      ]
+    },
+    {
+      "index": 4,
+      "expression": "",
+      "values": [
+        0.8660253882408142,
+        0.8660253882408142
+      ]
+    },
+    {
+      "index": 5,
+      "expression": "",
+      "values": [
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}
