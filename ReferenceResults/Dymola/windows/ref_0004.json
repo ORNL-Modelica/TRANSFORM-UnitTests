@@ -3,16 +3,47 @@
   "test_id": "0004",
   "status": "active",
   "date_added": "2026-04-08T17:17:16.235269+00:00",
-  "last_updated": "2026-04-08T17:17:16.235269+00:00",
+  "last_updated": "2026-04-08T18:33:42.570327+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 1e-06,
     "method": "Dassl",
-    "number_of_intervals": null
+    "number_of_intervals": 500,
+    "output_interval": null
   },
   "statistics": {
     "simulation": {
-      "cpu_time": 0.001
+      "cpu_time": 0.001,
+      "result_points": 511,
+      "accepted_steps": 190,
+      "f_evaluations": 190,
+      "state_events": 0,
+      "step_events": 0,
+      "model_time_events": 10,
+      "input_time_events": 0
+    },
+    "translation": {
+      "scalar_unknowns": 44,
+      "scalar_equations": 44,
+      "original_components": 10,
+      "original_variables": 69,
+      "original_unknowns_scalars": 44,
+      "differentiated_variables": 4,
+      "original_equations": 37,
+      "nontrivial_equations": 36,
+      "constants": 35,
+      "outputs": 2,
+      "time_varying_variables": 9,
+      "alias_variables": 15,
+      "mixed_systems": 0,
+      "continuous_time_states": 4,
+      "numerical_jacobians": 0,
+      "state_names": [
+        "intDef.y",
+        "intNoReset.y",
+        "intWitRes1.y",
+        "intWitRes2.y"
+      ]
     },
     "CPUtime": 0.003,
     "EventCounter": 19.0
@@ -519,18 +550,18 @@
         0.001,
         0.001,
         0.001,
-        0.002,
-        0.002,
-        0.002,
-        0.002,
-        0.002,
-        0.002,
-        0.002,
-        0.002,
-        0.002,
-        0.002,
-        0.002,
-        0.002,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
         0.003
       ]
     },
