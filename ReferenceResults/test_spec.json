@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "model": "TRANSFORM.HeatExchangers.Examples.OilWater_CTHX",
+      "comparison": {
+        "tolerance": 0.05
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatExchangers.Examples.OilWater_PCHX",
+      "comparison": {
+        "tolerance": 0.05
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatExchangers.Examples.OilWater_PTHX",
+      "comparison": {
+        "tolerance": 0.07
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatExchangers.Examples.WaterWater_STHX",
+      "comparison": {
+        "tolerance": 0.001
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatExchangers.Examples.WaterWater_STHX_wallR",
+      "comparison": {
+        "tolerance": 0.001
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatExchangers.Examples.WaterWater_STHX_withInsulation",
+      "comparison": {
+        "tolerance": 0.001
+      }
+    }
+  ]
+}
