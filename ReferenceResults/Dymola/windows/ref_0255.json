@@ -3,7 +3,7 @@
   "test_id": "0255",
   "status": "active",
   "date_added": "2026-04-10T19:08:14.498311+00:00",
-  "last_updated": "2026-04-10T19:08:14.498311+00:00",
+  "last_updated": "2026-04-10T20:00:13.715373+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
@@ -51,7 +51,7 @@
     {
       "name": "CPUtime",
       "values": [
-        0.0,
+        0.001,
         0.001,
         0.001,
         0.001,

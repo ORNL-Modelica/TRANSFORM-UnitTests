@@ -35,6 +35,10 @@
       "comparison": {
         "tolerance": 0.001
       }
-    }
+    },
+      "model": "TRANSFORM.Blocks.Examples.MFBS_Test",
+      "comparison": {
+        "tolerance": 0.001
+      }
   ]
 }

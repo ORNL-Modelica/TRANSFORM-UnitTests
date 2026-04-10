@@ -3,7 +3,7 @@
   "test_id": "0246",
   "status": "active",
   "date_added": "2026-04-10T19:08:02.721901+00:00",
-  "last_updated": "2026-04-10T19:08:02.721901+00:00",
+  "last_updated": "2026-04-10T20:00:11.199139+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
@@ -44,7 +44,7 @@
       "linear": [],
       "linear_after_manipulation": []
     },
-    "CPUtime": 0.003,
+    "CPUtime": 0.004,
     "EventCounter": 3.0
   },
   "diagnostics": [
@@ -552,7 +552,7 @@
         0.001,
         0.001,
         0.001,
-        0.003
+        0.004
       ]
     },
     {
