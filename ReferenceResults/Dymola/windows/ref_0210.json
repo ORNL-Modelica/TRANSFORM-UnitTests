@@ -3,7 +3,7 @@
   "test_id": "0210",
   "status": "active",
   "date_added": "2026-04-10T15:36:21.608381+00:00",
-  "last_updated": "2026-04-10T15:36:21.608381+00:00",
+  "last_updated": "2026-04-15T17:44:35.510823+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
@@ -13,7 +13,7 @@
   },
   "statistics": {
     "simulation": {
-      "cpu_time": 0.001,
+      "cpu_time_integration": 0.0,
       "result_points": 502,
       "accepted_steps": 19,
       "f_evaluations": 19,
@@ -44,6 +44,12 @@
       "linear": [],
       "linear_after_manipulation": []
     },
+    "timing": {
+      "translation_wall": 10.05,
+      "sim_wall": 0.31,
+      "other_wall": 0.05,
+      "total_wall": 10.41
+    },
     "CPUtime": 0.002,
     "EventCounter": 3.0
   },
@@ -51,7 +57,7 @@
     {
       "name": "CPUtime",
       "values": [
-        0.0,
+        0.001,
         0.001,
         0.001,
         0.001,
@@ -1571,7 +1577,7 @@
   "variables": [
     {
       "index": 1,
-      "name": "x[1]",
+      "name": "cat(1, mediums.d)[1]",
       "values": [
         843.2279,
         843.2279,
@@ -2079,7 +2085,7 @@
     },
     {
       "index": 2,
-      "name": "x[2]",
+      "name": "cat(1, mediums.d)[2]",
       "values": [
         806.8683,
         806.8683,
@@ -2587,7 +2593,7 @@
     },
     {
       "index": 3,
-      "name": "x[3]",
+      "name": "cat(1, mediums.d)[3]",
       "values": [
         770.5088,
         770.5088,

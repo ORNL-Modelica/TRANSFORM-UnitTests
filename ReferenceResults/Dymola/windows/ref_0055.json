@@ -3,7 +3,7 @@
   "test_id": "0055",
   "status": "active",
   "date_added": "2026-04-08T20:25:37.226916+00:00",
-  "last_updated": "2026-04-08T20:53:19.641323+00:00",
+  "last_updated": "2026-04-15T17:44:34.670877+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
@@ -13,7 +13,7 @@
   },
   "statistics": {
     "simulation": {
-      "cpu_time": 0.002,
+      "cpu_time_integration": 0.002,
       "result_points": 102,
       "accepted_steps": 22,
       "f_evaluations": 22,
@@ -89,6 +89,12 @@
         "condenser.V_liquid",
         "steamTurbine.phi"
       ]
+    },
+    "timing": {
+      "translation_wall": 8.87,
+      "sim_wall": 0.19,
+      "other_wall": 0.08,
+      "total_wall": 9.13
     },
     "CPUtime": 0.005,
     "EventCounter": 3.0

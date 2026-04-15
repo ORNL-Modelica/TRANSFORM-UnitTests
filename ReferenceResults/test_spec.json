@@ -36,9 +36,22 @@
         "tolerance": 0.001
       }
     },
+    {
       "model": "TRANSFORM.Blocks.Examples.MFBS_Test",
       "comparison": {
         "tolerance": 0.001
       }
+    },
+    {
+      "model": "TRANSFORM.Fluid.Examples.MSLFluid.HeatingSystem",
+      "comparison": {
+        "tolerance": 0.0001,
+        "variable_overrides": {
+          "pipe.mediums[1].p": {
+            "tolerance": 0.001
+          }
+        }
+      }
+    }
   ]
 }

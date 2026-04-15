@@ -3,7 +3,7 @@
   "test_id": "0221",
   "status": "active",
   "date_added": "2026-04-10T15:36:30.651240+00:00",
-  "last_updated": "2026-04-10T15:36:30.651240+00:00",
+  "last_updated": "2026-04-15T17:44:35.617931+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
@@ -13,7 +13,7 @@
   },
   "statistics": {
     "simulation": {
-      "cpu_time": 0.0,
+      "cpu_time_integration": 0.001,
       "result_points": 502,
       "accepted_steps": 19,
       "f_evaluations": 19,
@@ -44,13 +44,20 @@
       "linear": [],
       "linear_after_manipulation": []
     },
-    "CPUtime": 0.003,
+    "timing": {
+      "translation_wall": 9.57,
+      "sim_wall": 0.36,
+      "other_wall": 0.04,
+      "total_wall": 9.96
+    },
+    "CPUtime": 0.002,
     "EventCounter": 3.0
   },
   "diagnostics": [
     {
       "name": "CPUtime",
       "values": [
+        0.0,
         0.001,
         0.001,
         0.001,
@@ -551,8 +558,7 @@
         0.001,
         0.001,
         0.001,
-        0.001,
-        0.003
+        0.002
       ]
     },
     {
@@ -1571,7 +1577,7 @@
   "variables": [
     {
       "index": 1,
-      "name": "x[1]",
+      "name": "cat(\n        1,\n        materials.d,\n        lambda)[1]",
       "values": [
         10267.96,
         10267.96,
@@ -2079,7 +2085,7 @@
     },
     {
       "index": 2,
-      "name": "x[2]",
+      "name": "cat(\n        1,\n        materials.d,\n        lambda)[2]",
       "values": [
         10139.78,
         10139.78,
@@ -2587,7 +2593,7 @@
     },
     {
       "index": 3,
-      "name": "x[3]",
+      "name": "cat(\n        1,\n        materials.d,\n        lambda)[3]",
       "values": [
         9975.974,
         9975.974,
@@ -3095,7 +3101,7 @@
     },
     {
       "index": 4,
-      "name": "x[4]",
+      "name": "cat(\n        1,\n        materials.d,\n        lambda)[4]",
       "values": [
         4.277594,
         4.277594,
@@ -3603,7 +3609,7 @@
     },
     {
       "index": 5,
-      "name": "x[5]",
+      "name": "cat(\n        1,\n        materials.d,\n        lambda)[5]",
       "values": [
         3.009758,
         3.009758,
@@ -4111,7 +4117,7 @@
     },
     {
       "index": 6,
-      "name": "x[6]",
+      "name": "cat(\n        1,\n        materials.d,\n        lambda)[6]",
       "values": [
         2.265047,
         2.265047,
