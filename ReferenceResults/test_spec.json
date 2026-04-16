@@ -52,6 +52,12 @@
           }
         }
       }
+    },
+    {
+      "model": "TRANSFORM.Examples.CIET_Facility.Examples.CIET_nureth",
+      "simulation": {
+        "timeout": 100
+      }
     }
   ]
 }
