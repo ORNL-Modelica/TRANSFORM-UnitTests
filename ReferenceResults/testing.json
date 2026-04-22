@@ -1,12 +1,15 @@
 {
-  "package_path": "../../TRANSFORM-Library/TRANSFORM",
-  "simulator": "Dymola",
+  "source_path": "../../TRANSFORM-Library/TRANSFORM",
   "simulators": {
+    "Dymola 2026x": [
+      "C:\\Program Files\\Dymola 2026x\\bin64\\Dymola.exe"
+    ],
     "Dymola 2025x Refresh 1": [
       "C:\\Program Files\\Dymola 2025x Refresh 1\\bin64\\Dymola.exe"
     ],
-    "Dymola 2026x": [
-      "C:\\Program Files\\Dymola 2026x\\bin64\\Dymola.exe"
+    "OpenModelica": [
+      "/usr/bin/omc",
+      "omc"
     ]
   },
   "dependencies": [],
