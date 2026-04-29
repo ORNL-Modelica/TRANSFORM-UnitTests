@@ -1,6 +1,9 @@
 {
   "source_path": "../../TRANSFORM-Library/TRANSFORM",
   "simulators": {
+    "Dymola": [
+      "/usr/local/bin/dymola"
+    ],
     "Dymola 2026x": [
       "C:\\Program Files\\Dymola 2026x\\bin64\\Dymola.exe"
     ],
