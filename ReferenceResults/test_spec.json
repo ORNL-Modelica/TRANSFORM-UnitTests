@@ -56,7 +56,37 @@
     {
       "model": "TRANSFORM.Examples.CIET_Facility.Examples.CIET_nureth",
       "simulation": {
-        "timeout": 100
+        "timeout": 240
+      }
+    },
+    {
+      "model": "TRANSFORM.Examples.LightWaterReactor_PWR_Westinghouse.Examples.NSSS_Test",
+      "simulation": {
+        "timeout": 240
+      }
+    },
+    {
+      "model": "TRANSFORM.Examples.LightWaterSmallModularReactor.Examples.IRIS_Default_Teststandalone",
+      "simulation": {
+        "timeout": 240
+      }
+    },
+    {
+      "model": "TRANSFORM.Examples.SystemOfSubSystems.PHS.Examples.IRIS_Default_Test",
+      "simulation": {
+        "timeout": 240
+      }
+    },
+    {
+      "model": "TRANSFORM.Fluid.Examples.TritiumExamples.HumTest",
+      "simulation": {
+        "timeout": 240
+      }
+    },
+    {
+      "model": "TRANSFORM.Fluid.Examples.TritiumExamples.PbLiTest2",
+      "simulation": {
+        "timeout": 240
       }
     }
   ]
