@@ -3,7 +3,7 @@
   "test_id": "0197",
   "status": "active",
   "date_added": "2026-04-29T20:03:16.709842+00:00",
-  "last_updated": "2026-04-29T20:03:16.709842+00:00",
+  "last_updated": "2026-04-30T02:50:22.640139+00:00",
   "simulation": {
     "stop_time": 100000000.0,
     "tolerance": 0.0001,
@@ -13,7 +13,7 @@
   },
   "statistics": {
     "simulation": {
-      "cpu_time_integration": 6.13,
+      "cpu_time_integration": 4.03,
       "result_points": 10002,
       "accepted_steps": 393,
       "f_evaluations": 797,
@@ -277,20 +277,20 @@
       ]
     },
     "timing": {
-      "translation_wall": 14.96,
-      "sim_wall": 15.77,
-      "other_wall": 0.07,
-      "total_wall": 30.8
+      "translation_wall": 10.38,
+      "sim_wall": 10.25,
+      "other_wall": 0.17,
+      "total_wall": 20.81
     },
-    "CPUtime": 7.010651,
+    "CPUtime": 4.64467,
     "EventCounter": 3.0
   },
   "diagnostics": [
     {
       "name": "CPUtime",
-      "final": 7.010651111602783,
-      "min": 0.8739269971847534,
-      "max": 7.010651111602783
+      "final": 4.644670009613037,
+      "min": 0.6110000014305115,
+      "max": 4.644670009613037
     },
     {
       "name": "EventCounter",
