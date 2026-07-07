@@ -4,7 +4,26 @@ This repository holds the reference or "gold" result files for regression tests 
 
 In the past this was included in the TRANSFORM-Library Resources folder but now resided here to reduce library bloat and avoid file path lenth issues.
 
-# Instructions
+# Instructions (DSTF)
+
+Regression testing is driven by [DSTF](../DynamicSystemsTestingFramework)
+(Dynamic Systems Testing Framework). The configuration lives in
+`ReferenceResults/testing.json`, test definitions in
+`ReferenceResults/test_spec.json`, and reference baselines under
+`ReferenceResults/<Backend>/<os>/ref_NNNN.json`.
+
+```bash
+dstf --config ReferenceResults/testing.json run            # run + compare
+dstf --config ReferenceResults/testing.json run --accept   # accept new baselines
+dstf --config ReferenceResults/testing.json compare        # re-compare last results
+```
+
+# Legacy instructions (buildingspy — superseded, see TODO-cleanup.md)
+
+TODO(cleanup): everything below documents the previous buildingspy-based
+flow (`createUnitScripts.py`, `runUnitTests.py`, `Scripts/`). It is retained
+until the leftovers listed in `TODO-cleanup.md` are confirmed unused and
+deleted.
 
 1. Create unit scripts
     - These are stored in the repository for change purposes but can be regenerated at will.

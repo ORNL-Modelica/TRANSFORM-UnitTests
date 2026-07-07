@@ -1,3 +1,6 @@
+# TODO(cleanup): LEGACY — superseded by DSTF (see TODO-cleanup.md).
+# Part of the old buildingspy-based regression flow; kept only until the
+# leftovers listed in TODO-cleanup.md are confirmed unused and deleted.
 # -*- coding: utf-8 -*-
 """
 Created on Tue Oct 24 14:57:15 2017
