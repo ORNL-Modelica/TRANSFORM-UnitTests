@@ -3,7 +3,7 @@
   "test_id": "0045",
   "status": "active",
   "date_added": "2026-04-08T20:24:37.004766+00:00",
-  "last_updated": "2026-04-16T15:02:16.618271+00:00",
+  "last_updated": "2026-07-07T23:49:39.582329+00:00",
   "simulation": {
     "stop_time": 10.0,
     "tolerance": 0.0001,
@@ -13,7 +13,7 @@
   },
   "statistics": {
     "simulation": {
-      "cpu_time_integration": 1.37,
+      "cpu_time_integration": 1.3,
       "result_points": 10006,
       "accepted_steps": 84,
       "f_evaluations": 84,
@@ -27,19 +27,19 @@
       "scalar_unknowns": 315,
       "scalar_equations": 315,
       "original_components": 44,
-      "original_variables": 651,
+      "original_variables": 652,
       "original_unknowns_scalars": 319,
       "differentiated_variables": 1,
       "original_equations": 296,
       "nontrivial_equations": 228,
       "constants": 303,
       "free_parameters": 65,
-      "parameter_depending": 73,
+      "parameter_depending": 76,
       "outputs": 2,
       "time_varying_variables": 79,
       "alias_variables": 108,
       "mixed_systems": 1,
-      "numerical_jacobians": 2,
+      "numerical_jacobians": 1,
       "nonlinear": [
         34,
         2
@@ -57,7 +57,7 @@
       "linear": [],
       "linear_after_manipulation": [],
       "init_mixed_systems": 1,
-      "init_numerical_jacobians": 3,
+      "init_numerical_jacobians": 1,
       "init_nonlinear": [
         34,
         2
@@ -88,20 +88,20 @@
       "init_homotopy_nonlinear_after_manipulation_max": 2
     },
     "timing": {
-      "translation_wall": 8.7,
-      "sim_wall": 1.72,
-      "other_wall": 0.09,
-      "total_wall": 10.52
+      "translation_wall": 5.06,
+      "sim_wall": 1.53,
+      "other_wall": 0.08,
+      "total_wall": 6.67
     },
-    "CPUtime": 1.465,
+    "CPUtime": 1.309,
     "EventCounter": 7.0
   },
   "diagnostics": [
     {
       "name": "CPUtime",
-      "final": 1.465000033378601,
-      "min": 0.012000000104308128,
-      "max": 1.465000033378601
+      "final": 1.309000015258789,
+      "min": 0.004999999888241291,
+      "max": 1.309000015258789
     },
     {
       "name": "EventCounter",
@@ -447,7 +447,6 @@
     1.655,
     1.66,
     1.665,
-    1.67,
     1.675,
     1.68,
     1.685,
@@ -779,7 +778,6 @@
     3.317,
     3.322,
     3.327,
-    3.332,
     3.337,
     3.342,
     3.347,
@@ -1112,7 +1110,6 @@
     4.983,
     4.988,
     4.993,
-    4.998,
     5.0,
     5.0,
     5.0,
@@ -1447,7 +1444,6 @@
     6.643,
     6.648,
     6.653,
-    6.658,
     6.663,
     6.668,
     6.673,
@@ -1780,7 +1776,6 @@
     8.31,
     8.315,
     8.32,
-    8.325,
     8.33,
     8.335,
     8.34,
@@ -2111,7 +2106,12 @@
     9.96,
     9.965,
     9.97,
-    9.975
+    9.975,
+    9.98,
+    9.985,
+    9.995,
+    10.0,
+    10.0
   ],
   "variables": [
     {
@@ -2453,7 +2453,6 @@
         -0.5844797,
         -0.5848862,
         -0.5852929,
-        -0.5856997,
         -0.5861067,
         -0.5865138,
         -0.5869211,
@@ -2785,7 +2784,6 @@
         -0.73155,
         -0.7320437,
         -0.732538,
-        -0.7330327,
         -0.7335278,
         -0.7340234,
         -0.7345195,
@@ -3118,7 +3116,6 @@
         -0.9929696,
         -0.9950196,
         -0.9970872,
-        -0.9991722,
         -1.000011,
         -1.000011,
         -1.000011,
@@ -3453,7 +3450,6 @@
         -1.264087,
         -1.264582,
         -1.265076,
-        -1.265569,
         -1.266062,
         -1.266555,
         -1.267047,
@@ -3786,7 +3782,6 @@
         -1.410978,
         -1.41138,
         -1.411783,
-        -1.412184,
         -1.412586,
         -1.412988,
         -1.413389,
@@ -3921,6 +3916,11 @@
         -1.463902,
         -1.464285,
         -1.464667,
+        -1.465049,
+        -1.465049,
+        -1.465049,
+        -1.465049,
+        -1.465049,
         -1.465049,
         -1.465049,
         -1.465049,

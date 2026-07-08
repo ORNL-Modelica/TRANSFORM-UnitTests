@@ -3,7 +3,7 @@
   "test_id": "0048",
   "status": "active",
   "date_added": "2026-04-29T20:03:14.384306+00:00",
-  "last_updated": "2026-04-30T02:50:18.835399+00:00",
+  "last_updated": "2026-07-08T00:17:21.652699+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
@@ -13,7 +13,7 @@
   },
   "statistics": {
     "simulation": {
-      "cpu_time_integration": 0.0127,
+      "cpu_time_integration": 0.0213,
       "result_points": 102,
       "accepted_steps": 22,
       "f_evaluations": 22,
@@ -27,14 +27,14 @@
       "scalar_unknowns": 316,
       "scalar_equations": 316,
       "original_components": 41,
-      "original_variables": 583,
+      "original_variables": 584,
       "original_unknowns_scalars": 319,
       "differentiated_variables": 8,
       "original_equations": 249,
       "nontrivial_equations": 169,
       "constants": 208,
       "free_parameters": 66,
-      "parameter_depending": 140,
+      "parameter_depending": 143,
       "outputs": 2,
       "continuous_time_states": 2,
       "time_varying_variables": 14,
@@ -56,7 +56,7 @@
       "linear_after_manipulation_total": 0,
       "linear_after_manipulation_max": 0,
       "init_mixed_systems": 2,
-      "init_numerical_jacobians": 2,
+      "init_numerical_jacobians": 0,
       "init_nonlinear": [
         1,
         4,
@@ -91,20 +91,20 @@
       ]
     },
     "timing": {
-      "translation_wall": 5.67,
-      "sim_wall": 0.3,
-      "other_wall": 0.09,
-      "total_wall": 6.05
+      "translation_wall": 6.79,
+      "sim_wall": 0.51,
+      "other_wall": 0.26,
+      "total_wall": 7.57
     },
-    "CPUtime": 0.061666,
+    "CPUtime": 0.167796,
     "EventCounter": 3.0
   },
   "diagnostics": [
     {
       "name": "CPUtime",
-      "final": 0.06166600063443184,
-      "min": 0.04842500016093254,
-      "max": 0.06166600063443184
+      "final": 0.16779600083827972,
+      "min": 0.1454239934682846,
+      "max": 0.16779600083827972
     },
     {
       "name": "EventCounter",

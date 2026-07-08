@@ -3,7 +3,7 @@
   "test_id": "0043",
   "status": "active",
   "date_added": "2026-04-08T20:24:35.060090+00:00",
-  "last_updated": "2026-04-16T15:02:16.603636+00:00",
+  "last_updated": "2026-07-07T23:49:39.565368+00:00",
   "simulation": {
     "stop_time": 6000.0,
     "tolerance": 0.0001,
@@ -21,7 +21,7 @@
   },
   "statistics": {
     "simulation": {
-      "cpu_time_integration": 0.276,
+      "cpu_time_integration": 0.242,
       "result_points": 504,
       "accepted_steps": 100,
       "f_evaluations": 180,
@@ -35,20 +35,20 @@
       "scalar_unknowns": 1390,
       "scalar_equations": 1390,
       "original_components": 171,
-      "original_variables": 1942,
+      "original_variables": 1943,
       "original_unknowns_scalars": 1396,
       "differentiated_variables": 26,
       "original_equations": 952,
       "nontrivial_equations": 696,
       "constants": 819,
       "free_parameters": 2633,
-      "parameter_depending": 150,
+      "parameter_depending": 153,
       "outputs": 6,
       "continuous_time_states": 15,
       "time_varying_variables": 302,
       "alias_variables": 635,
       "mixed_systems": 2,
-      "numerical_jacobians": 4,
+      "numerical_jacobians": 3,
       "nonlinear": [
         13,
         8,
@@ -88,7 +88,7 @@
       "linear_after_manipulation_total": 2,
       "linear_after_manipulation_max": 2,
       "init_mixed_systems": 1,
-      "init_numerical_jacobians": 3,
+      "init_numerical_jacobians": 1,
       "init_nonlinear": [
         100,
         2
@@ -136,20 +136,20 @@
       ]
     },
     "timing": {
-      "translation_wall": 11.13,
-      "sim_wall": 0.65,
-      "other_wall": 0.1,
-      "total_wall": 11.87
+      "translation_wall": 6.06,
+      "sim_wall": 0.47,
+      "other_wall": 0.08,
+      "total_wall": 6.61
     },
-    "CPUtime": 0.306,
+    "CPUtime": 0.263,
     "EventCounter": 7.0
   },
   "diagnostics": [
     {
       "name": "CPUtime",
-      "final": 0.3059999942779541,
-      "min": 0.02500000037252903,
-      "max": 0.3059999942779541
+      "final": 0.2630000114440918,
+      "min": 0.01899999938905239,
+      "max": 0.2630000114440918
     },
     {
       "name": "EventCounter",
