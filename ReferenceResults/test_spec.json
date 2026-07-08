@@ -88,6 +88,30 @@
       "simulation": {
         "timeout": 240
       }
+    },
+    {
+      "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Drift_Test_flat",
+      "simulation": {
+        "timeout": 240
+      }
+    },
+    {
+      "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Drift_Test_sine",
+      "simulation": {
+        "timeout": 240
+      }
+    },
+    {
+      "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Drift_Test_flat_Xenon",
+      "simulation": {
+        "timeout": 240
+      }
+    },
+    {
+      "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Drift_Test_feedback_Xenon",
+      "simulation": {
+        "timeout": 240
+      }
     }
   ]
 }
