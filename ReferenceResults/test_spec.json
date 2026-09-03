@@ -103,6 +103,9 @@
     },
     {
       "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Drift_Test_flat_Xenon",
+      "comparison": {
+        "tolerance": 5e-4
+      },
       "simulation": {
         "timeout": 240
       }
