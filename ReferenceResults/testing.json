@@ -1,6 +1,6 @@
 {
   "source_path": "../../TRANSFORM-Library/TRANSFORM",
-  "simulators": {
+  "backends": {
     "Dymola": [
       "/usr/local/bin/dymola"
     ],
