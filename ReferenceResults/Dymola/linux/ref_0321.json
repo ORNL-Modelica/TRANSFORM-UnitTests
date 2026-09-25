@@ -1712,7 +1712,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "PHS.pressurizer.drum2Phase.p",
+      "name": "unitTests.x[1]",
+      "expression": "PHS.pressurizer.drum2Phase.p",
       "values": [
         15513200.0,
         15513200.0,
@@ -2809,7 +2810,8 @@
     },
     {
       "index": 2,
-      "name": "PHS.coreSubchannel.kinetics.Q_total",
+      "name": "unitTests.x[2]",
+      "expression": "PHS.coreSubchannel.kinetics.Q_total",
       "values": [
         3411000000.0,
         3411001000.0,

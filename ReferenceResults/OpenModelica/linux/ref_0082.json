@@ -534,7 +534,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "returnEpsilon.epsilon",
+      "name": "unitTests.x[1]",
+      "expression": "returnEpsilon.epsilon",
       "values": [
         0.763955979887733,
         0.763955979887733,
@@ -1042,7 +1043,8 @@
     },
     {
       "index": 2,
-      "name": "returnNTU.NTU",
+      "name": "unitTests.x[2]",
+      "expression": "returnNTU.NTU",
       "values": [
         2.17299293379838,
         2.17299293379838,

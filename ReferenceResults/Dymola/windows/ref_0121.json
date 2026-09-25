@@ -793,7 +793,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "shield.materials[\n        1].T",
+      "name": "unitTests.x[1]",
+      "expression": "shield.materials[1].T",
       "values": [
         298.15,
         298.15,

@@ -1744,7 +1744,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "pulseSine.y",
+      "name": "unitTests.x[1]",
+      "expression": "pulseSine.y",
       "values": [
         0.0,
         0.0,

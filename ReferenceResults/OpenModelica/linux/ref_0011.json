@@ -139,7 +139,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "booleanToReal.y",
+      "name": "unitTests.x[1]",
+      "expression": "booleanToReal.y",
       "values": [
         0.0,
         0.0,

@@ -575,7 +575,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "z",
+      "name": "unitTests.x[1]",
+      "expression": "z",
       "values": [
         7.0,
         7.08,

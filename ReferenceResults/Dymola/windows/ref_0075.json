@@ -592,7 +592,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "dumpTank.level",
+      "name": "unitTests.x[1]",
+      "expression": "dumpTank.level",
       "values": [
         1.0,
         0.1493986,

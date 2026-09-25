@@ -188,7 +188,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "display_Q_total.val",
+      "name": "unitTests.x[1]",
+      "expression": "display_Q_total.val",
       "values": [
         69.43455,
         69.43455,

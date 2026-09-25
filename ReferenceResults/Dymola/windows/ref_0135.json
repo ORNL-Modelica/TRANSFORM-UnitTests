@@ -263,7 +263,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "high_pressure.C[\n        1]",
+      "name": "unitTests.x[1]",
+      "expression": "high_pressure.C[1]",
       "values": [
         4.5,
         4.5,
@@ -371,7 +372,8 @@
     },
     {
       "index": 2,
-      "name": "cylinder.Cs[10, 1]",
+      "name": "unitTests.x[2]",
+      "expression": "cylinder.Cs[10, 1]",
       "values": [
         0.0,
         0.004784699,
@@ -479,7 +481,8 @@
     },
     {
       "index": 3,
-      "name": "low_pressure.C[1]",
+      "name": "unitTests.x[3]",
+      "expression": "low_pressure.C[1]",
       "values": [
         1.5,
         1.5,

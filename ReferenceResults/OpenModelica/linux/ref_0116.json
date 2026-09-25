@@ -542,7 +542,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "y",
+      "name": "unitTests.x[1]",
+      "expression": "y",
       "values": [
         0.0,
         0.019998976,
@@ -1058,7 +1059,8 @@
     },
     {
       "index": 2,
-      "name": "dy",
+      "name": "unitTests.x[2]",
+      "expression": "dy",
       "values": [
         0.0,
         4.999232,

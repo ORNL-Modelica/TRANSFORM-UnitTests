@@ -211,7 +211,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "T_max.y",
+      "name": "unitTests.x[1]",
+      "expression": "T_max.y",
       "values": [
         36.34199,
         36.34199,

@@ -597,7 +597,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "circular_pipe.port_b.p",
+      "name": "unitTests.x[1]",
+      "expression": "circular_pipe.port_b.p",
       "values": [
         1000000.0,
         957773.9,
@@ -1105,7 +1106,8 @@
     },
     {
       "index": 2,
-      "name": "annulus_pipe.port_b.p",
+      "name": "unitTests.x[2]",
+      "expression": "annulus_pipe.port_b.p",
       "values": [
         1000000.0,
         981796.6,

@@ -2369,7 +2369,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "core_kinetics.Qs[\n        6]",
+      "name": "unitTests.x[1]",
+      "expression": "core_kinetics.Qs[6]",
       "values": [
         0.0,
         8.272736e-10,
@@ -4375,7 +4376,8 @@
     },
     {
       "index": 2,
-      "name": "core.mCs[6, 3]",
+      "name": "unitTests.x[2]",
+      "expression": "core.mCs[6, 3]",
       "values": [
         0.0,
         0.1993094,
@@ -6381,7 +6383,8 @@
     },
     {
       "index": 3,
-      "name": "sum(core_kinetics.Qs_decay[6, :])",
+      "name": "unitTests.x[3]",
+      "expression": "sum(core_kinetics.Qs_decay[6, :])",
       "values": [
         0.0,
         3.825371e-13,

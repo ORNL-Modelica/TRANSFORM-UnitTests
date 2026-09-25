@@ -575,7 +575,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "map.x_scaled",
+      "name": "unitTests.x[1]",
+      "expression": "map.x_scaled",
       "values": [
         0.5,
         0.5,

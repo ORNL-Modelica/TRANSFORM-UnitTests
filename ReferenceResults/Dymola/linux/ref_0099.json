@@ -289,7 +289,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "Adiabatic.port.T",
+      "name": "unitTests.x[1]",
+      "expression": "Adiabatic.port.T",
       "values": [
         472.8095,
         472.8095,
@@ -397,7 +398,8 @@
     },
     {
       "index": 2,
-      "name": "thermoseed.materials[3].T",
+      "name": "unitTests.x[2]",
+      "expression": "thermoseed.materials[3].T",
       "values": [
         472.531,
         472.531,
@@ -505,7 +507,8 @@
     },
     {
       "index": 3,
-      "name": "tissue.materials[2].T",
+      "name": "unitTests.x[3]",
+      "expression": "tissue.materials[2].T",
       "values": [
         453.5656,
         453.5656,

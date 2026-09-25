@@ -3219,7 +3219,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "RTD40",
+      "name": "unitTests.x[1]",
+      "expression": "RTD40",
       "values": [
         325.0,
         328.1538,

@@ -1292,7 +1292,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "riser.mediums[2].T",
+      "name": "unitTests.x[1]",
+      "expression": "riser.mediums[2].T",
       "values": [
         293.1733,
         293.1733,
@@ -2401,7 +2402,8 @@
     },
     {
       "index": 2,
-      "name": "downcomer.mediums[2].T",
+      "name": "unitTests.x[2]",
+      "expression": "downcomer.mediums[2].T",
       "values": [
         293.1732,
         293.1732,
@@ -3510,7 +3512,8 @@
     },
     {
       "index": 3,
-      "name": "riser.port_a.m_flow",
+      "name": "unitTests.x[3]",
+      "expression": "riser.port_a.m_flow",
       "values": [
         0.0,
         0.0,

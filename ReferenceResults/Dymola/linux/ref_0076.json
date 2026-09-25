@@ -236,7 +236,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "y",
+      "name": "unitTests.x[1]",
+      "expression": "y",
       "values": [
         0.0,
         0.6185009,

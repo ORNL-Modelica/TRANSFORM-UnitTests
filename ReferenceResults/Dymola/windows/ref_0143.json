@@ -631,7 +631,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "winding.materials[\n        3, 2, 8].T",
+      "name": "unitTests.x[1]",
+      "expression": "winding.materials[3, 2, 8].T",
       "values": [
         298.15,
         298.5148,

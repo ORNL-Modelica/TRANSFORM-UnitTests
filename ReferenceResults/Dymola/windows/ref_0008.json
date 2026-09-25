@@ -584,7 +584,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "offTim1.y",
+      "name": "unitTests.x[1]",
+      "expression": "offTim1.y",
       "values": [
         0.0,
         0.002,
@@ -1101,7 +1102,8 @@
     },
     {
       "index": 2,
-      "name": "offTim2.y",
+      "name": "unitTests.x[2]",
+      "expression": "offTim2.y",
       "values": [
         0.0,
         0.002,

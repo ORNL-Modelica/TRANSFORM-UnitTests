@@ -544,7 +544,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "PID.y",
+      "name": "unitTests.x[1]",
+      "expression": "PID.y",
       "values": [
         0.0,
         0.0,
@@ -1062,7 +1063,8 @@
     },
     {
       "index": 2,
-      "name": "sensor.T",
+      "name": "unitTests.x[2]",
+      "expression": "sensor.T",
       "values": [
         313.15,
         312.942999725696,

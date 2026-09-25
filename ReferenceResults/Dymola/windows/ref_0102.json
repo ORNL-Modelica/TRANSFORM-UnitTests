@@ -575,7 +575,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "x.y",
+      "name": "unitTests.x[1]",
+      "expression": "x.y",
       "values": [
         0.25,
         0.4365174,
@@ -1083,7 +1084,8 @@
     },
     {
       "index": 2,
-      "name": "dT.y",
+      "name": "unitTests.x[2]",
+      "expression": "dT.y",
       "values": [
         600.0,
         681.4666,
@@ -1591,7 +1593,8 @@
     },
     {
       "index": 3,
-      "name": "G.y",
+      "name": "unitTests.x[3]",
+      "expression": "G.y",
       "values": [
         4000.0,
         4050.264,
@@ -2099,7 +2102,8 @@
     },
     {
       "index": 4,
-      "name": "P.y",
+      "name": "unitTests.x[4]",
+      "expression": "P.y",
       "values": [
         10550000.0,
         20536090.0,
@@ -2607,7 +2611,8 @@
     },
     {
       "index": 5,
-      "name": "alpha.y",
+      "name": "unitTests.x[5]",
+      "expression": "alpha.y",
       "values": [
         5564.971,
         17866.17,

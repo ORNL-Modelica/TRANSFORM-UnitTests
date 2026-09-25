@@ -550,7 +550,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "easingRamp.y",
+      "name": "unitTests.x[1]",
+      "expression": "easingRamp.y",
       "values": [
         1.0,
         1.0,
@@ -1074,7 +1075,8 @@
     },
     {
       "index": 2,
-      "name": "easingRamp1.y",
+      "name": "unitTests.x[2]",
+      "expression": "easingRamp1.y",
       "values": [
         1.0,
         1.0,

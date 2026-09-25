@@ -575,7 +575,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "cat(\n        1,\n        {roots_c[2].im},\n        {roots[1]},\n        {roots[3]},\n        {nRoots_c},\n        {root})[1]",
+      "name": "unitTests.x[1]",
+      "expression": "cat(1, {roots_c[2].im}, {roots[1]}, {roots[3]}, {nRoots_c}, {root})[1]",
       "values": [
         0.4235626,
         0.4235626,
@@ -1083,7 +1084,8 @@
     },
     {
       "index": 2,
-      "name": "cat(\n        1,\n        {roots_c[2].im},\n        {roots[1]},\n        {roots[3]},\n        {nRoots_c},\n        {root})[2]",
+      "name": "unitTests.x[2]",
+      "expression": "cat(1, {roots_c[2].im}, {roots[1]}, {roots[3]}, {nRoots_c}, {root})[2]",
       "values": [
         3.61347,
         3.61347,
@@ -1591,7 +1593,8 @@
     },
     {
       "index": 3,
-      "name": "cat(\n        1,\n        {roots_c[2].im},\n        {roots[1]},\n        {roots[3]},\n        {nRoots_c},\n        {root})[3]",
+      "name": "unitTests.x[3]",
+      "expression": "cat(1, {roots_c[2].im}, {roots[1]}, {roots[3]}, {nRoots_c}, {root})[3]",
       "values": [
         999.0,
         999.0,
@@ -2099,7 +2102,8 @@
     },
     {
       "index": 4,
-      "name": "cat(\n        1,\n        {roots_c[2].im},\n        {roots[1]},\n        {roots[3]},\n        {nRoots_c},\n        {root})[4]",
+      "name": "unitTests.x[4]",
+      "expression": "cat(1, {roots_c[2].im}, {roots[1]}, {roots[3]}, {nRoots_c}, {root})[4]",
       "values": [
         1.0,
         1.0,
@@ -2607,7 +2611,8 @@
     },
     {
       "index": 5,
-      "name": "cat(\n        1,\n        {roots_c[2].im},\n        {roots[1]},\n        {roots[3]},\n        {nRoots_c},\n        {root})[5]",
+      "name": "unitTests.x[5]",
+      "expression": "cat(1, {roots_c[2].im}, {roots[1]}, {roots[3]}, {nRoots_c}, {root})[5]",
       "values": [
         3.61347,
         3.61347,

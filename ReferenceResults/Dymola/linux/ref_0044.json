@@ -640,7 +640,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "ductOut.port_b.C_outflow",
+      "name": "unitTests.x[1]",
+      "expression": "ductOut.port_b.C_outflow",
       "values": [
         0.0,
         0.0,

@@ -185,7 +185,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "metalObject.T",
+      "name": "unitTests.x[1]",
+      "expression": "metalObject.T",
       "values": [
         293.15,
         293.4727,

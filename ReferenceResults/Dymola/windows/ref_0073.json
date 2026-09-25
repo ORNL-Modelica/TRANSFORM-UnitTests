@@ -175,7 +175,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "checkValve_true.port_a.m_flow",
+      "name": "unitTests.x[1]",
+      "expression": "checkValve_true.port_a.m_flow",
       "values": [
         3145728.0,
         2.827834e+19,
@@ -283,7 +284,8 @@
     },
     {
       "index": 2,
-      "name": "checkValve_false.port_a.m_flow",
+      "name": "unitTests.x[2]",
+      "expression": "checkValve_false.port_a.m_flow",
       "values": [
         3145728.0,
         2.827834e+19,

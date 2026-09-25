@@ -583,7 +583,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "batemanEquations.Ns[1]",
+      "name": "unitTests.x[1]",
+      "expression": "batemanEquations.Ns[1]",
       "values": [
         500.0,
         490.8913,
@@ -1091,7 +1092,8 @@
     },
     {
       "index": 2,
-      "name": "batemanEquations.Ns[2]",
+      "name": "unitTests.x[2]",
+      "expression": "batemanEquations.Ns[2]",
       "values": [
         100.0,
         100.4832,
@@ -1599,7 +1601,8 @@
     },
     {
       "index": 3,
-      "name": "batemanEquations.Ns[3]",
+      "name": "unitTests.x[3]",
+      "expression": "batemanEquations.Ns[3]",
       "values": [
         300.0,
         281.3686,
@@ -2107,7 +2110,8 @@
     },
     {
       "index": 4,
-      "name": "batemanEquations.Ns[4]",
+      "name": "unitTests.x[4]",
+      "expression": "batemanEquations.Ns[4]",
       "values": [
         200.0,
         225.0041,

@@ -534,7 +534,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "cat(1, mediums.d)[1]",
+      "name": "unitTests.x[1]",
+      "expression": "cat(1, mediums.d)[1]",
       "values": [
         3437.30955309625,
         3437.30955309625,
@@ -1042,7 +1043,8 @@
     },
     {
       "index": 2,
-      "name": "cat(1, mediums.d)[2]",
+      "name": "unitTests.x[2]",
+      "expression": "cat(1, mediums.d)[2]",
       "values": [
         3168.58395737592,
         3168.58395737592,
@@ -1550,7 +1552,8 @@
     },
     {
       "index": 3,
-      "name": "cat(1, mediums.d)[3]",
+      "name": "unitTests.x[3]",
+      "expression": "cat(1, mediums.d)[3]",
       "values": [
         2866.26766219056,
         2866.26766219056,

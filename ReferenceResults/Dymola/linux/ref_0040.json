@@ -14,7 +14,7 @@
   "comparison": {
     "tolerance": 0.0001,
     "variable_overrides": {
-      "pipe.mediums[1].p": {
+      "unitTests.x[3]": {
         "tolerance": 0.001
       }
     }
@@ -668,7 +668,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "heater.mediums[1].T",
+      "name": "unitTests.x[1]",
+      "expression": "heater.mediums[1].T",
       "values": [
         344.7982,
         344.7982,
@@ -1178,7 +1179,8 @@
     },
     {
       "index": 2,
-      "name": "radiator.mediums[1].T",
+      "name": "unitTests.x[2]",
+      "expression": "radiator.mediums[1].T",
       "values": [
         296.5729,
         296.5729,
@@ -1688,7 +1690,8 @@
     },
     {
       "index": 3,
-      "name": "pipe.mediums[1].p",
+      "name": "unitTests.x[3]",
+      "expression": "pipe.mediums[1].p",
       "values": [
         129992.5,
         129992.5,

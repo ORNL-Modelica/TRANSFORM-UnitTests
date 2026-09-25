@@ -593,7 +593,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "volume.medium.h",
+      "name": "unitTests.x[1]",
+      "expression": "volume.medium.h",
       "values": [
         3000000.0,
         2674952.0,

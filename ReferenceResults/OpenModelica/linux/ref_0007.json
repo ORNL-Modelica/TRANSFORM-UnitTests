@@ -534,7 +534,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "easing.y",
+      "name": "unitTests.x[1]",
+      "expression": "easing.y",
       "values": [
         3.0,
         3.0,
@@ -1042,7 +1043,8 @@
     },
     {
       "index": 2,
-      "name": "easing1.y",
+      "name": "unitTests.x[2]",
+      "expression": "easing1.y",
       "values": [
         3.0,
         3.0,

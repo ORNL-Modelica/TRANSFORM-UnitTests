@@ -592,7 +592,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "transportDelayPipe.port_a.h_outflow",
+      "name": "unitTests.x[1]",
+      "expression": "transportDelayPipe.port_a.h_outflow",
       "values": [
         299291.9,
         299291.9,
@@ -1102,7 +1103,8 @@
     },
     {
       "index": 2,
-      "name": "transportDelayPipe.port_b.h_outflow",
+      "name": "unitTests.x[2]",
+      "expression": "transportDelayPipe.port_b.h_outflow",
       "values": [
         591691.1,
         591691.1,
@@ -1612,7 +1614,8 @@
     },
     {
       "index": 3,
-      "name": "transportDelayPipe.port_a.m_flow",
+      "name": "unitTests.x[3]",
+      "expression": "transportDelayPipe.port_a.m_flow",
       "values": [
         -0.0,
         0.0,

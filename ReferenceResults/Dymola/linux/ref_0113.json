@@ -379,7 +379,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "yval[5]",
+      "name": "unitTests.x[1]",
+      "expression": "yval[5]",
       "values": [
         20.0,
         20.0,
@@ -487,7 +488,8 @@
     },
     {
       "index": 2,
-      "name": "yval[15]",
+      "name": "unitTests.x[2]",
+      "expression": "yval[15]",
       "values": [
         20.0,
         20.0,

@@ -534,7 +534,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "alpha",
+      "name": "unitTests.x[1]",
+      "expression": "alpha",
       "values": [
         17420.7603120152,
         17420.7603120152,

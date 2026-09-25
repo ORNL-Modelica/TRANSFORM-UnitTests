@@ -1120,7 +1120,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "pressurizer.drum2Phase.level",
+      "name": "unitTests.x[1]",
+      "expression": "pressurizer.drum2Phase.level",
       "values": [
         1.728196,
         1.728342,

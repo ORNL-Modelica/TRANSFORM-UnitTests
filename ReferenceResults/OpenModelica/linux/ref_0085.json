@@ -534,7 +534,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "y.re",
+      "name": "unitTests.x[1]",
+      "expression": "y.re",
       "values": [
         0.0,
         0.0,
@@ -1042,7 +1043,8 @@
     },
     {
       "index": 2,
-      "name": "y.im",
+      "name": "unitTests.x[2]",
+      "expression": "y.im",
       "values": [
         2.23606797749979,
         2.23606797749979,

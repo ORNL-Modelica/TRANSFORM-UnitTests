@@ -575,7 +575,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "cat(1, mediums.d)[1]",
+      "name": "unitTests.x[1]",
+      "expression": "cat(1, mediums.d)[1]",
       "values": [
         2303.11,
         2303.11,
@@ -1083,7 +1084,8 @@
     },
     {
       "index": 2,
-      "name": "cat(1, mediums.d)[2]",
+      "name": "unitTests.x[2]",
+      "expression": "cat(1, mediums.d)[2]",
       "values": [
         2241.55,
         2241.55,
@@ -1591,7 +1593,8 @@
     },
     {
       "index": 3,
-      "name": "cat(1, mediums.d)[3]",
+      "name": "unitTests.x[3]",
+      "expression": "cat(1, mediums.d)[3]",
       "values": [
         2164.6,
         2164.6,

@@ -575,7 +575,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "cat(\n        1,\n        materials.d,\n        lambda)[1]",
+      "name": "unitTests.x[1]",
+      "expression": "cat(1, materials.d, lambda)[1]",
       "values": [
         8860.0,
         8860.0,
@@ -1083,7 +1084,8 @@
     },
     {
       "index": 2,
-      "name": "cat(\n        1,\n        materials.d,\n        lambda)[2]",
+      "name": "unitTests.x[2]",
+      "expression": "cat(1, materials.d, lambda)[2]",
       "values": [
         8860.0,
         8860.0,
@@ -1591,7 +1593,8 @@
     },
     {
       "index": 3,
-      "name": "cat(\n        1,\n        materials.d,\n        lambda)[3]",
+      "name": "unitTests.x[3]",
+      "expression": "cat(1, materials.d, lambda)[3]",
       "values": [
         8860.0,
         8860.0,
@@ -2099,7 +2102,8 @@
     },
     {
       "index": 4,
-      "name": "cat(\n        1,\n        materials.d,\n        lambda)[4]",
+      "name": "unitTests.x[4]",
+      "expression": "cat(1, materials.d, lambda)[4]",
       "values": [
         14.44857,
         14.44857,
@@ -2607,7 +2611,8 @@
     },
     {
       "index": 5,
-      "name": "cat(\n        1,\n        materials.d,\n        lambda)[5]",
+      "name": "unitTests.x[5]",
+      "expression": "cat(1, materials.d, lambda)[5]",
       "values": [
         18.16,
         18.16,
@@ -3115,7 +3120,8 @@
     },
     {
       "index": 6,
-      "name": "cat(\n        1,\n        materials.d,\n        lambda)[6]",
+      "name": "unitTests.x[6]",
+      "expression": "cat(1, materials.d, lambda)[6]",
       "values": [
         23.41428,
         23.41428,

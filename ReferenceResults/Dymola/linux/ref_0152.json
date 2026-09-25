@@ -175,7 +175,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "y[1]",
+      "name": "unitTests.x[1]",
+      "expression": "y[1]",
       "values": [
         1.0,
         1.0,
@@ -283,7 +284,8 @@
     },
     {
       "index": 2,
-      "name": "y[2]",
+      "name": "unitTests.x[2]",
+      "expression": "y[2]",
       "values": [
         1.29155,
         1.29155,
@@ -391,7 +393,8 @@
     },
     {
       "index": 3,
-      "name": "y[3]",
+      "name": "unitTests.x[3]",
+      "expression": "y[3]",
       "values": [
         1.668101,
         1.668101,
@@ -499,7 +502,8 @@
     },
     {
       "index": 4,
-      "name": "y[4]",
+      "name": "unitTests.x[4]",
+      "expression": "y[4]",
       "values": [
         2.154435,
         2.154435,
@@ -607,7 +611,8 @@
     },
     {
       "index": 5,
-      "name": "y[5]",
+      "name": "unitTests.x[5]",
+      "expression": "y[5]",
       "values": [
         2.782559,
         2.782559,
@@ -715,7 +720,8 @@
     },
     {
       "index": 6,
-      "name": "y[6]",
+      "name": "unitTests.x[6]",
+      "expression": "y[6]",
       "values": [
         3.593814,
         3.593814,
@@ -823,7 +829,8 @@
     },
     {
       "index": 7,
-      "name": "y[7]",
+      "name": "unitTests.x[7]",
+      "expression": "y[7]",
       "values": [
         4.641589,
         4.641589,
@@ -931,7 +938,8 @@
     },
     {
       "index": 8,
-      "name": "y[8]",
+      "name": "unitTests.x[8]",
+      "expression": "y[8]",
       "values": [
         5.994843,
         5.994843,
@@ -1039,7 +1047,8 @@
     },
     {
       "index": 9,
-      "name": "y[9]",
+      "name": "unitTests.x[9]",
+      "expression": "y[9]",
       "values": [
         7.742637,
         7.742637,
@@ -1147,7 +1156,8 @@
     },
     {
       "index": 10,
-      "name": "y[10]",
+      "name": "unitTests.x[10]",
+      "expression": "y[10]",
       "values": [
         10.0,
         10.0,

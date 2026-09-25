@@ -2032,7 +2032,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "alpha",
+      "name": "unitTests.x[1]",
+      "expression": "alpha",
       "values": [
         48285.6953905759,
         36793.3002001311,
@@ -4038,7 +4039,8 @@
     },
     {
       "index": 2,
-      "name": "S",
+      "name": "unitTests.x[2]",
+      "expression": "S",
       "values": [
         1.0,
         0.760759982210303,
@@ -6044,7 +6046,8 @@
     },
     {
       "index": 3,
-      "name": "Re_tp",
+      "name": "unitTests.x[3]",
+      "expression": "Re_tp",
       "values": [
         0.0,
         22607.0628264194,

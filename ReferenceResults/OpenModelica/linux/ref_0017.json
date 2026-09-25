@@ -139,7 +139,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "switch.y",
+      "name": "unitTests.x[1]",
+      "expression": "switch.y",
       "values": [
         0.0,
         0.0,

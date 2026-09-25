@@ -279,7 +279,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "winding.Cs[2, 3,\n        1]",
+      "name": "unitTests.x[1]",
+      "expression": "winding.Cs[2, 3, 1]",
       "values": [
         0.0,
         0.1267315,

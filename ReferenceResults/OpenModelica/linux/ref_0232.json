@@ -534,7 +534,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "conversion.y",
+      "name": "unitTests.x[1]",
+      "expression": "conversion.y",
       "values": [
         100.0,
         100.0,
@@ -1042,7 +1043,8 @@
     },
     {
       "index": 2,
-      "name": "conversion1.y",
+      "name": "unitTests.x[2]",
+      "expression": "conversion1.y",
       "values": [
         100.0,
         100.0,

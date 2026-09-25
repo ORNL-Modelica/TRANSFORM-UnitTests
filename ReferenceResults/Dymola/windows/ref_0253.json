@@ -575,7 +575,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "x[1]",
+      "name": "unitTests.x[1]",
+      "expression": "x[1]",
       "values": [
         2419.09,
         2419.09,
@@ -1083,7 +1084,8 @@
     },
     {
       "index": 2,
-      "name": "x[2]",
+      "name": "unitTests.x[2]",
+      "expression": "x[2]",
       "values": [
         0.0004133785,
         0.0004133785,

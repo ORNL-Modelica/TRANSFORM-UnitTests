@@ -574,7 +574,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "uAdT_lm.U",
+      "name": "unitTests.x[1]",
+      "expression": "uAdT_lm.U",
       "values": [
         38.10601,
         38.10601,
@@ -1082,7 +1083,8 @@
     },
     {
       "index": 2,
-      "name": "uAdT_lm1.surfaceArea",
+      "name": "unitTests.x[2]",
+      "expression": "uAdT_lm1.surfaceArea",
       "values": [
         5.178817,
         5.178817,

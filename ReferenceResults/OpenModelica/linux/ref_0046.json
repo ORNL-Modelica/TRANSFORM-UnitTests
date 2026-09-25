@@ -542,7 +542,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "expansionTank.C[1]",
+      "name": "unitTests.x[1]",
+      "expression": "expansionTank.C[1]",
       "values": [
         0.0,
         0.0,
@@ -1058,7 +1059,8 @@
     },
     {
       "index": 2,
-      "name": "expansionTank.level",
+      "name": "unitTests.x[2]",
+      "expression": "expansionTank.level",
       "values": [
         0.5,
         2.04313538119732,

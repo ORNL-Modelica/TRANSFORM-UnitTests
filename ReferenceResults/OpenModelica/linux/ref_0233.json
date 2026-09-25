@@ -534,7 +534,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "check.y",
+      "name": "unitTests.x[1]",
+      "expression": "check.y",
       "values": [
         0.0,
         0.0,

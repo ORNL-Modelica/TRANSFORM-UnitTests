@@ -234,7 +234,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "pipe.portM_a1[5].C[\n        1]",
+      "name": "unitTests.x[1]",
+      "expression": "pipe.portM_a1[5].C[1]",
       "values": [
         1.444444,
         1.444444,
@@ -342,7 +343,8 @@
     },
     {
       "index": 2,
-      "name": "pipe.portM_b1[5].C[1]",
+      "name": "unitTests.x[2]",
+      "expression": "pipe.portM_b1[5].C[1]",
       "values": [
         0.9005413,
         0.9005413,

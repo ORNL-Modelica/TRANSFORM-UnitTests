@@ -614,7 +614,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "actual.val",
+      "name": "unitTests.x[1]",
+      "expression": "actual.val",
       "values": [
         1200.0,
         1200.002,
@@ -1122,7 +1123,8 @@
     },
     {
       "index": 2,
-      "name": "predicted.val",
+      "name": "unitTests.x[2]",
+      "expression": "predicted.val",
       "values": [
         1200.0,
         1200.002,

@@ -574,7 +574,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "if y1 then 1 else 0",
+      "name": "unitTests.x[1]",
+      "expression": "if y1 then 1 else 0",
       "values": [
         1.0,
         1.0,
@@ -1082,7 +1083,8 @@
     },
     {
       "index": 2,
-      "name": "if y2 then 1 else 0",
+      "name": "unitTests.x[2]",
+      "expression": "if y2 then 1 else 0",
       "values": [
         0.0,
         0.0,
@@ -1590,7 +1592,8 @@
     },
     {
       "index": 3,
-      "name": "if y3 then 1 else 0",
+      "name": "unitTests.x[3]",
+      "expression": "if y3 then 1 else 0",
       "values": [
         0.0,
         0.0,
@@ -2098,7 +2101,8 @@
     },
     {
       "index": 4,
-      "name": "if y4 then 1 else 0",
+      "name": "unitTests.x[4]",
+      "expression": "if y4 then 1 else 0",
       "values": [
         0.0,
         0.0,

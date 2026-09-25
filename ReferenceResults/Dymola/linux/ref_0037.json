@@ -175,7 +175,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "phi2[4, 1]",
+      "name": "unitTests.x[1]",
+      "expression": "phi2[4, 1]",
       "values": [
         211.5708,
         211.5708,
@@ -283,7 +284,8 @@
     },
     {
       "index": 2,
-      "name": "diff",
+      "name": "unitTests.x[2]",
+      "expression": "diff",
       "values": [
         0.3262997,
         0.3262997,

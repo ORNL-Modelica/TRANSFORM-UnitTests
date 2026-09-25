@@ -540,7 +540,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "y",
+      "name": "unitTests.x[1]",
+      "expression": "y",
       "values": [
         -1.5,
         -1.4832,
@@ -1054,7 +1055,8 @@
     },
     {
       "index": 2,
-      "name": "yMonotone",
+      "name": "unitTests.x[2]",
+      "expression": "yMonotone",
       "values": [
         -1.5,
         -1.4832,
@@ -1568,7 +1570,8 @@
     },
     {
       "index": 3,
-      "name": "y_noLinExtrap",
+      "name": "unitTests.x[3]",
+      "expression": "y_noLinExtrap",
       "values": [
         -1.44140625,
         -1.428845334528,
@@ -2082,7 +2085,8 @@
     },
     {
       "index": 4,
-      "name": "yMonotone_noLinExtrap",
+      "name": "unitTests.x[4]",
+      "expression": "yMonotone_noLinExtrap",
       "values": [
         -1.5,
         -1.4832,

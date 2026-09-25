@@ -249,7 +249,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "Adiabatic.port.T",
+      "name": "unitTests.x[1]",
+      "expression": "Adiabatic.port.T",
       "values": [
         923.4738,
         923.4738,
@@ -357,7 +358,8 @@
     },
     {
       "index": 2,
-      "name": "fuel.materials[25].T",
+      "name": "unitTests.x[2]",
+      "expression": "fuel.materials[25].T",
       "values": [
         884.0049,
         884.0049,
@@ -465,7 +467,8 @@
     },
     {
       "index": 3,
-      "name": "clad.materials[5].T",
+      "name": "unitTests.x[3]",
+      "expression": "clad.materials[5].T",
       "values": [
         793.726,
         793.726,

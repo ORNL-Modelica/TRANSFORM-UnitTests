@@ -575,7 +575,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "cat(\n        1,\n        traceSeparator.port_b_carrier.C_outflow,\n        {traceSeparator.port_sepFluid.m_flow})[1]",
+      "name": "unitTests.x[1]",
+      "expression": "cat(1, traceSeparator.port_b_carrier.C_outflow, {traceSeparator.port_sepFluid.m_flow})[1]",
       "values": [
         0.0,
         0.0,
@@ -1083,7 +1084,8 @@
     },
     {
       "index": 2,
-      "name": "cat(\n        1,\n        traceSeparator.port_b_carrier.C_outflow,\n        {traceSeparator.port_sepFluid.m_flow})[2]",
+      "name": "unitTests.x[2]",
+      "expression": "cat(1, traceSeparator.port_b_carrier.C_outflow, {traceSeparator.port_sepFluid.m_flow})[2]",
       "values": [
         0.0,
         0.0,
@@ -1591,7 +1593,8 @@
     },
     {
       "index": 3,
-      "name": "cat(\n        1,\n        traceSeparator.port_b_carrier.C_outflow,\n        {traceSeparator.port_sepFluid.m_flow})[3]",
+      "name": "unitTests.x[3]",
+      "expression": "cat(1, traceSeparator.port_b_carrier.C_outflow, {traceSeparator.port_sepFluid.m_flow})[3]",
       "values": [
         8.0,
         8.0,
@@ -2099,7 +2102,8 @@
     },
     {
       "index": 4,
-      "name": "cat(\n        1,\n        traceSeparator.port_b_carrier.C_outflow,\n        {traceSeparator.port_sepFluid.m_flow})[4]",
+      "name": "unitTests.x[4]",
+      "expression": "cat(1, traceSeparator.port_b_carrier.C_outflow, {traceSeparator.port_sepFluid.m_flow})[4]",
       "values": [
         2.0,
         2.0,
@@ -2607,7 +2611,8 @@
     },
     {
       "index": 5,
-      "name": "cat(\n        1,\n        traceSeparator.port_b_carrier.C_outflow,\n        {traceSeparator.port_sepFluid.m_flow})[5]",
+      "name": "unitTests.x[5]",
+      "expression": "cat(1, traceSeparator.port_b_carrier.C_outflow, {traceSeparator.port_sepFluid.m_flow})[5]",
       "values": [
         -0.2,
         -0.2,

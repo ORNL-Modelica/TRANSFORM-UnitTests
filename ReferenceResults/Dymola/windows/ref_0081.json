@@ -1118,7 +1118,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "drum2Phase.level",
+      "name": "unitTests.x[1]",
+      "expression": "drum2Phase.level",
       "values": [
         1.733339,
         1.733339,

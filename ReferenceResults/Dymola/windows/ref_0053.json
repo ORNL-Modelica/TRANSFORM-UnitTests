@@ -589,7 +589,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "ValveLin.port_a.p",
+      "name": "unitTests.x[1]",
+      "expression": "ValveLin.port_a.p",
       "values": [
         684726.8,
         684726.8,

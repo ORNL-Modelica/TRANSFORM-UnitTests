@@ -229,7 +229,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "yval[3]",
+      "name": "unitTests.x[1]",
+      "expression": "yval[3]",
       "values": [
         46.85,
         46.913,

@@ -190,7 +190,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "sensor.T",
+      "name": "unitTests.x[1]",
+      "expression": "sensor.T",
       "values": [
         533.15,
         541.9304,

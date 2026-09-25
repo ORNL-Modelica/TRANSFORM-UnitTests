@@ -134,7 +134,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "T_infinity.port.Q_flow",
+      "name": "unitTests.x[1]",
+      "expression": "T_infinity.port.Q_flow",
       "values": [
         2.92328397409484,
         2.92328397409484,

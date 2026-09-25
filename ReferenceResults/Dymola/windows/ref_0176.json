@@ -575,7 +575,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "y_int",
+      "name": "unitTests.x[1]",
+      "expression": "y_int",
       "values": [
         -1.0,
         -0.4973584,

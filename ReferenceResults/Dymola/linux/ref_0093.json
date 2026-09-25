@@ -212,7 +212,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "Q_loss.y",
+      "name": "unitTests.x[1]",
+      "expression": "Q_loss.y",
       "values": [
         821.3308,
         821.3308,
@@ -320,7 +321,8 @@
     },
     {
       "index": 2,
-      "name": "T_L.y",
+      "name": "unitTests.x[2]",
+      "expression": "T_L.y",
       "values": [
         48.90873,
         48.90873,
@@ -428,7 +430,8 @@
     },
     {
       "index": 3,
-      "name": "Q_flux_L.y",
+      "name": "unitTests.x[3]",
+      "expression": "Q_flux_L.y",
       "values": [
         293.4524,
         293.4524,

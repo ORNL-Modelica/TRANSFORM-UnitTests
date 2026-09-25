@@ -134,7 +134,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "y[1]",
+      "name": "unitTests.x[1]",
+      "expression": "y[1]",
       "values": [
         1.0,
         1.0,
@@ -242,7 +243,8 @@
     },
     {
       "index": 2,
-      "name": "y[2]",
+      "name": "unitTests.x[2]",
+      "expression": "y[2]",
       "values": [
         1.29154966501488,
         1.29154966501488,
@@ -350,7 +352,8 @@
     },
     {
       "index": 3,
-      "name": "y[3]",
+      "name": "unitTests.x[3]",
+      "expression": "y[3]",
       "values": [
         1.66810053720006,
         1.66810053720006,
@@ -458,7 +461,8 @@
     },
     {
       "index": 4,
-      "name": "y[4]",
+      "name": "unitTests.x[4]",
+      "expression": "y[4]",
       "values": [
         2.15443469003188,
         2.15443469003188,
@@ -566,7 +570,8 @@
     },
     {
       "index": 5,
-      "name": "y[5]",
+      "name": "unitTests.x[5]",
+      "expression": "y[5]",
       "values": [
         2.78255940220712,
         2.78255940220712,
@@ -674,7 +679,8 @@
     },
     {
       "index": 6,
-      "name": "y[6]",
+      "name": "unitTests.x[6]",
+      "expression": "y[6]",
       "values": [
         3.59381366380463,
         3.59381366380463,
@@ -782,7 +788,8 @@
     },
     {
       "index": 7,
-      "name": "y[7]",
+      "name": "unitTests.x[7]",
+      "expression": "y[7]",
       "values": [
         4.64158883361278,
         4.64158883361278,
@@ -890,7 +897,8 @@
     },
     {
       "index": 8,
-      "name": "y[8]",
+      "name": "unitTests.x[8]",
+      "expression": "y[8]",
       "values": [
         5.99484250318941,
         5.99484250318941,
@@ -998,7 +1006,8 @@
     },
     {
       "index": 9,
-      "name": "y[9]",
+      "name": "unitTests.x[9]",
+      "expression": "y[9]",
       "values": [
         7.74263682681127,
         7.74263682681127,
@@ -1106,7 +1115,8 @@
     },
     {
       "index": 10,
-      "name": "y[10]",
+      "name": "unitTests.x[10]",
+      "expression": "y[10]",
       "values": [
         10.0,
         10.0,

@@ -542,7 +542,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "steamTurbine.Q_mech",
+      "name": "unitTests.x[1]",
+      "expression": "steamTurbine.Q_mech",
       "values": [
         61156238.2683651,
         61156238.2683651,

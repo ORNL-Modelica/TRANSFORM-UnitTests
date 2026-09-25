@@ -695,7 +695,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "pipe.pipe.mediums[\n        5].T",
+      "name": "unitTests.x[1]",
+      "expression": "pipe.pipe.mediums[5].T",
       "values": [
         323.1598,
         323.1585,
@@ -1202,7 +1203,8 @@
     },
     {
       "index": 2,
-      "name": "pipe.pipe.Cs[5, 1]",
+      "name": "unitTests.x[2]",
+      "expression": "pipe.pipe.Cs[5, 1]",
       "values": [
         0.0,
         1.743151e-15,

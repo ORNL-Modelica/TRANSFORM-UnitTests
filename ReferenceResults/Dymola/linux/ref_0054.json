@@ -503,7 +503,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "pipe_single.massPorts[\n        4].C[1]",
+      "name": "unitTests.x[1]",
+      "expression": "pipe_single.massPorts[4].C[1]",
       "values": [
         941774300000000.0,
         941774300000000.0,
@@ -611,7 +612,8 @@
     },
     {
       "index": 2,
-      "name": "pipe_nParallel.massPorts[4].C[1]",
+      "name": "unitTests.x[2]",
+      "expression": "pipe_nParallel.massPorts[4].C[1]",
       "values": [
         94177430000000.0,
         94177430000000.0,
@@ -719,7 +721,8 @@
     },
     {
       "index": 3,
-      "name": "pipe_single.heatPorts[4].T",
+      "name": "unitTests.x[3]",
+      "expression": "pipe_single.heatPorts[4].T",
       "values": [
         691.9744,
         691.9744,
@@ -827,7 +830,8 @@
     },
     {
       "index": 4,
-      "name": "pipe_nParallel.heatPorts[4].T",
+      "name": "unitTests.x[4]",
+      "expression": "pipe_nParallel.heatPorts[4].T",
       "values": [
         339.5241,
         339.5241,

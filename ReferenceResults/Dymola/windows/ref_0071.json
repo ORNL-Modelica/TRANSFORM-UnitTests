@@ -618,7 +618,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "adsorberBed.Ts_adsorber[\n        3]",
+      "name": "unitTests.x[1]",
+      "expression": "adsorberBed.Ts_adsorber[3]",
       "values": [
         373.15,
         375.4475,
@@ -1127,7 +1128,8 @@
     },
     {
       "index": 2,
-      "name": "adsorberBed.mCs_decay[1, 2]",
+      "name": "unitTests.x[2]",
+      "expression": "adsorberBed.mCs_decay[1, 2]",
       "values": [
         0.3023237,
         0.3023237,

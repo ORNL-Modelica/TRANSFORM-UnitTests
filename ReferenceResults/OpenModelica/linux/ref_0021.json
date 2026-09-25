@@ -548,7 +548,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "limPID_original.y",
+      "name": "unitTests.x[1]",
+      "expression": "limPID_original.y",
       "values": [
         -1.0,
         -1.0,
@@ -1070,7 +1071,8 @@
     },
     {
       "index": 2,
-      "name": "limPID.y",
+      "name": "unitTests.x[2]",
+      "expression": "limPID.y",
       "values": [
         -1.0,
         -1.0,
@@ -1592,7 +1594,8 @@
     },
     {
       "index": 3,
-      "name": "limPID_reverse.y",
+      "name": "unitTests.x[3]",
+      "expression": "limPID_reverse.y",
       "values": [
         1.0,
         1.0,

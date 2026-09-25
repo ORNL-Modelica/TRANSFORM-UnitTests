@@ -534,7 +534,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "y[3, 2]",
+      "name": "unitTests.x[1]",
+      "expression": "y[3, 2]",
       "values": [
         2.0,
         2.0,
@@ -1042,7 +1043,8 @@
     },
     {
       "index": 2,
-      "name": "y1[3, 2, 2]",
+      "name": "unitTests.x[2]",
+      "expression": "y1[3, 2, 2]",
       "values": [
         2.0,
         2.0,
@@ -1550,7 +1552,8 @@
     },
     {
       "index": 3,
-      "name": "y2[3, 2, 2,4]",
+      "name": "unitTests.x[3]",
+      "expression": "y2[3, 2, 2, 4]",
       "values": [
         10.0,
         10.0,

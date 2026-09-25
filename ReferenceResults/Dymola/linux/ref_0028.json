@@ -575,7 +575,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "heatTransfer.alphas[\n        1, 1]",
+      "name": "unitTests.x[1]",
+      "expression": "heatTransfer.alphas[1, 1]",
       "values": [
         3.402823e+38,
         3.402823e+38,
@@ -1083,7 +1084,8 @@
     },
     {
       "index": 2,
-      "name": "heatTransfer.alphas[2, 2]",
+      "name": "unitTests.x[2]",
+      "expression": "heatTransfer.alphas[2, 2]",
       "values": [
         3.402823e+38,
         3.402823e+38,
@@ -1591,7 +1593,8 @@
     },
     {
       "index": 3,
-      "name": "heatTransfer.Q_flows[1, 1]",
+      "name": "unitTests.x[3]",
+      "expression": "heatTransfer.Q_flows[1, 1]",
       "values": [
         10.0,
         10.0,
@@ -2099,7 +2102,8 @@
     },
     {
       "index": 4,
-      "name": "heatTransfer.Q_flows[\n        2, 2]",
+      "name": "unitTests.x[4]",
+      "expression": "heatTransfer.Q_flows[2, 2]",
       "values": [
         10.0,
         10.0,

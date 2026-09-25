@@ -189,7 +189,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "-T_melt.port.Q_flow",
+      "name": "unitTests.x[1]",
+      "expression": "-T_melt.port.Q_flow",
       "values": [
         497.311,
         497.311,

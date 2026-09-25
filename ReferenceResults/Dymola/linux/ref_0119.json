@@ -175,7 +175,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "plane.port_b.Q_flow",
+      "name": "unitTests.x[1]",
+      "expression": "plane.port_b.Q_flow",
       "values": [
         200.0,
         200.0,
@@ -283,7 +284,8 @@
     },
     {
       "index": 2,
-      "name": "cylinder.port_b.Q_flow",
+      "name": "unitTests.x[2]",
+      "expression": "cylinder.port_b.Q_flow",
       "values": [
         906.472,
         906.472,
@@ -391,7 +393,8 @@
     },
     {
       "index": 3,
-      "name": "sphere.port_b.Q_flow",
+      "name": "unitTests.x[3]",
+      "expression": "sphere.port_b.Q_flow",
       "values": [
         2513.274,
         2513.274,
@@ -499,7 +502,8 @@
     },
     {
       "index": 4,
-      "name": "convection.port_b.Q_flow",
+      "name": "unitTests.x[4]",
+      "expression": "convection.port_b.Q_flow",
       "values": [
         600.0,
         600.0,
@@ -607,7 +611,8 @@
     },
     {
       "index": 5,
-      "name": "contact.port_b.Q_flow",
+      "name": "unitTests.x[5]",
+      "expression": "contact.port_b.Q_flow",
       "values": [
         8.0,
         8.0,
@@ -715,7 +720,8 @@
     },
     {
       "index": 6,
-      "name": "radiationExact.port_b.Q_flow",
+      "name": "unitTests.x[6]",
+      "expression": "radiationExact.port_b.Q_flow",
       "values": [
         126.5164,
         126.5164,
@@ -823,7 +829,8 @@
     },
     {
       "index": 7,
-      "name": "radiationApproximate.port_b.Q_flow",
+      "name": "unitTests.x[7]",
+      "expression": "radiationApproximate.port_b.Q_flow",
       "values": [
         126.3789,
         126.3789,
@@ -931,7 +938,8 @@
     },
     {
       "index": 8,
-      "name": "plane_semiInf.port_b.Q_flow",
+      "name": "unitTests.x[8]",
+      "expression": "plane_semiInf.port_b.Q_flow",
       "values": [
         112.8379,
         112.8379,

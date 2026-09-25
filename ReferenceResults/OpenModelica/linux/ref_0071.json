@@ -536,7 +536,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "plasticDisk.T",
+      "name": "unitTests.x[1]",
+      "expression": "plasticDisk.T",
       "values": [
         453.15,
         452.576866054443,

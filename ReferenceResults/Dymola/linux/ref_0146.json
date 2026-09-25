@@ -574,7 +574,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "cat(1,y,y1)[1]",
+      "name": "unitTests.x[1]",
+      "expression": "cat(1, y, y1)[1]",
       "values": [
         1.0,
         1.0,
@@ -1082,7 +1083,8 @@
     },
     {
       "index": 2,
-      "name": "cat(1,y,y1)[2]",
+      "name": "unitTests.x[2]",
+      "expression": "cat(1, y, y1)[2]",
       "values": [
         8.0,
         8.0,
@@ -1590,7 +1592,8 @@
     },
     {
       "index": 3,
-      "name": "cat(1,y,y1)[3]",
+      "name": "unitTests.x[3]",
+      "expression": "cat(1, y, y1)[3]",
       "values": [
         3.0,
         3.0,
@@ -2098,7 +2101,8 @@
     },
     {
       "index": 4,
-      "name": "cat(1,y,y1)[4]",
+      "name": "unitTests.x[4]",
+      "expression": "cat(1, y, y1)[4]",
       "values": [
         2.0,
         2.0,
@@ -2606,7 +2610,8 @@
     },
     {
       "index": 5,
-      "name": "cat(1,y,y1)[5]",
+      "name": "unitTests.x[5]",
+      "expression": "cat(1, y, y1)[5]",
       "values": [
         4.0,
         4.0,

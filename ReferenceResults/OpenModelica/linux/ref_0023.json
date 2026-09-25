@@ -2032,7 +2032,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "battery.E",
+      "name": "unitTests.x[1]",
+      "expression": "battery.E",
       "values": [
         360000000.0,
         357500000.0,

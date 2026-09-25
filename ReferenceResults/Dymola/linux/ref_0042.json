@@ -2116,7 +2116,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "pump.port_b.m_flow",
+      "name": "unitTests.x[1]",
+      "expression": "pump.port_b.m_flow",
       "values": [
         -0.5324651,
         -0.5324651,

@@ -534,7 +534,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "example_11_3.calcType.surfaceArea",
+      "name": "unitTests.x[1]",
+      "expression": "example_11_3.calcType.surfaceArea",
       "values": [
         38.2238307553612,
         38.2238307553612,
@@ -1042,7 +1043,8 @@
     },
     {
       "index": 2,
-      "name": "example_11_4.calcType.T_1_cold",
+      "name": "unitTests.x[2]",
+      "expression": "example_11_4.calcType.T_1_cold",
       "values": [
         341.577728371995,
         341.577728371995,

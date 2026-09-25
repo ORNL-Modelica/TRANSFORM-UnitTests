@@ -625,7 +625,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "pipe.pipe.mediums[1].T",
+      "name": "unitTests.x[1]",
+      "expression": "pipe.pipe.mediums[1].T",
       "values": [
         323.1598,
         323.0185,

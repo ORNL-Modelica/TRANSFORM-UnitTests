@@ -574,7 +574,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "J0[10]",
+      "name": "unitTests.x[1]",
+      "expression": "J0[10]",
       "values": [
         0.8038186,
         0.8038186,
@@ -1082,7 +1083,8 @@
     },
     {
       "index": 2,
-      "name": "J1[10]",
+      "name": "unitTests.x[2]",
+      "expression": "J1[10]",
       "values": [
         0.4091777,
         0.4091777,

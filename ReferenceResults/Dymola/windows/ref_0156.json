@@ -1208,7 +1208,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "STHX.tube.mediums[2].p",
+      "name": "unitTests.x[1]",
+      "expression": "STHX.tube.mediums[2].p",
       "values": [
         100088.9,
         100217.3,
@@ -2215,7 +2216,8 @@
     },
     {
       "index": 2,
-      "name": "STHX.shell.mediums[2].p",
+      "name": "unitTests.x[2]",
+      "expression": "STHX.shell.mediums[2].p",
       "values": [
         100088.9,
         100000.2,
@@ -3222,7 +3224,8 @@
     },
     {
       "index": 3,
-      "name": "STHX.tube.mediums[2].h",
+      "name": "unitTests.x[3]",
+      "expression": "STHX.tube.mediums[2].h",
       "values": [
         102590.8,
         98000.48,
@@ -4229,7 +4232,8 @@
     },
     {
       "index": 4,
-      "name": "STHX.shell.mediums[2].h",
+      "name": "unitTests.x[4]",
+      "expression": "STHX.shell.mediums[2].h",
       "values": [
         367649.7,
         368161.2,

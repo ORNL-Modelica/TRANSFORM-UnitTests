@@ -175,7 +175,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "biotNumber.y",
+      "name": "unitTests.x[1]",
+      "expression": "biotNumber.y",
       "values": [
         0.02,
         0.02,

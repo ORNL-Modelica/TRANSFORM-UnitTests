@@ -892,7 +892,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "composite.summary.T_effective",
+      "name": "unitTests.x[1]",
+      "expression": "composite.summary.T_effective",
       "values": [
         1023.15,
         1023.15,

@@ -1133,7 +1133,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "pressurizer.p",
+      "name": "unitTests.x[1]",
+      "expression": "pressurizer.p",
       "values": [
         16000000.0,
         15997710.0,

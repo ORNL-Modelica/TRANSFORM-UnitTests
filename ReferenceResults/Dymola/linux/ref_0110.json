@@ -691,7 +691,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "roof.materials[\n        1].T",
+      "name": "unitTests.x[1]",
+      "expression": "roof.materials[1].T",
       "values": [
         361.0175,
         361.0175,

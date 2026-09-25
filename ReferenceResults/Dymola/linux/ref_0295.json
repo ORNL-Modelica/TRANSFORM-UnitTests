@@ -223,7 +223,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "h_in.port_a.T",
+      "name": "unitTests.x[1]",
+      "expression": "h_in.port_a.T",
       "values": [
         790.7609,
         790.7609,
@@ -331,7 +332,8 @@
     },
     {
       "index": 2,
-      "name": "cylinder.materials[10].T",
+      "name": "unitTests.x[2]",
+      "expression": "cylinder.materials[10].T",
       "values": [
         926.7224,
         926.7224,
@@ -439,7 +441,8 @@
     },
     {
       "index": 3,
-      "name": "h_out.port_a.T",
+      "name": "unitTests.x[3]",
+      "expression": "h_out.port_a.T",
       "values": [
         732.7957,
         732.7957,

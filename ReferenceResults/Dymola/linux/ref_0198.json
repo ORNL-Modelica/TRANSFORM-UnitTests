@@ -1081,7 +1081,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "kinetics.Q_fission",
+      "name": "unitTests.x[1]",
+      "expression": "kinetics.Q_fission",
       "values": [
         1000000000.0,
         1024388000.0,

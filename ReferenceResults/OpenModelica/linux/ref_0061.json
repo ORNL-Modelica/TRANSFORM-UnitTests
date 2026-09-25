@@ -1034,7 +1034,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "alpha",
+      "name": "unitTests.x[1]",
+      "expression": "alpha",
       "values": [
         24514.9074904031,
         24514.9074904031,
@@ -2042,7 +2043,8 @@
     },
     {
       "index": 2,
-      "name": "F",
+      "name": "unitTests.x[2]",
+      "expression": "F",
       "values": [
         0.876465562355617,
         0.888396315236736,
@@ -3050,7 +3052,8 @@
     },
     {
       "index": 3,
-      "name": "X_tt_inv",
+      "name": "unitTests.x[3]",
+      "expression": "X_tt_inv",
       "values": [
         0.0,
         0.00918351054180744,

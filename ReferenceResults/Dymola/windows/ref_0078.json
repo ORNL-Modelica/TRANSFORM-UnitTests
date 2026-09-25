@@ -593,7 +593,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "condenser.Q_total",
+      "name": "unitTests.x[1]",
+      "expression": "condenser.Q_total",
       "values": [
         -26571040.0,
         -26571040.0,

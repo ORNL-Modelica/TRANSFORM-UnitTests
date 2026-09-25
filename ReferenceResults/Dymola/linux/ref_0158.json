@@ -574,7 +574,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "if dfA_1 then 1 else 0",
+      "name": "unitTests.x[1]",
+      "expression": "if dfA_1 then 1 else 0",
       "values": [
         1.0,
         1.0,
@@ -1082,7 +1083,8 @@
     },
     {
       "index": 2,
-      "name": "if dfA_2 then 1 else 0",
+      "name": "unitTests.x[2]",
+      "expression": "if dfA_2 then 1 else 0",
       "values": [
         1.0,
         1.0,
@@ -1590,7 +1592,8 @@
     },
     {
       "index": 3,
-      "name": "if dfA_3 then 1 else 0",
+      "name": "unitTests.x[3]",
+      "expression": "if dfA_3 then 1 else 0",
       "values": [
         1.0,
         1.0,
@@ -2098,7 +2101,8 @@
     },
     {
       "index": 4,
-      "name": "if dfA_4 then 1 else 0",
+      "name": "unitTests.x[4]",
+      "expression": "if dfA_4 then 1 else 0",
       "values": [
         1.0,
         1.0,
@@ -2606,7 +2610,8 @@
     },
     {
       "index": 5,
-      "name": "if dfA_5 then 1 else 0",
+      "name": "unitTests.x[5]",
+      "expression": "if dfA_5 then 1 else 0",
       "values": [
         1.0,
         1.0,
@@ -3114,7 +3119,8 @@
     },
     {
       "index": 6,
-      "name": "if dfA_6 then 1 else 0",
+      "name": "unitTests.x[6]",
+      "expression": "if dfA_6 then 1 else 0",
       "values": [
         1.0,
         1.0,

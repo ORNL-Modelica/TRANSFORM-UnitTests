@@ -47,7 +47,7 @@
       "comparison": {
         "tolerance": 0.0001,
         "variable_overrides": {
-          "pipe.mediums[1].p": {
+          "unitTests.x[3]": {
             "tolerance": 0.001
           }
         }
@@ -104,7 +104,7 @@
     {
       "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Drift_Test_flat_Xenon",
       "comparison": {
-        "tolerance": 5e-4
+        "tolerance": 0.0005
       },
       "simulation": {
         "timeout": 240

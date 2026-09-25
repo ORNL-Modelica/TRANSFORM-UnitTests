@@ -225,7 +225,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[1]",
+      "name": "unitTests.x[1]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[1]",
       "values": [
         353.15,
         353.15,
@@ -333,7 +334,8 @@
     },
     {
       "index": 2,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[2]",
+      "name": "unitTests.x[2]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[2]",
       "values": [
         355.15,
         355.15,
@@ -441,7 +443,8 @@
     },
     {
       "index": 3,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[3]",
+      "name": "unitTests.x[3]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[3]",
       "values": [
         357.15,
         357.15,
@@ -549,7 +552,8 @@
     },
     {
       "index": 4,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[4]",
+      "name": "unitTests.x[4]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[4]",
       "values": [
         357.15,
         357.15,
@@ -657,7 +661,8 @@
     },
     {
       "index": 5,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[5]",
+      "name": "unitTests.x[5]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[5]",
       "values": [
         355.15,
         355.15,
@@ -765,7 +770,8 @@
     },
     {
       "index": 6,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[6]",
+      "name": "unitTests.x[6]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[6]",
       "values": [
         351.15,
         351.15,
@@ -873,7 +879,8 @@
     },
     {
       "index": 7,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[7]",
+      "name": "unitTests.x[7]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[7]",
       "values": [
         345.15,
         345.15,
@@ -981,7 +988,8 @@
     },
     {
       "index": 8,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[8]",
+      "name": "unitTests.x[8]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[8]",
       "values": [
         337.15,
         337.15,
@@ -1089,7 +1097,8 @@
     },
     {
       "index": 9,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[9]",
+      "name": "unitTests.x[9]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[9]",
       "values": [
         327.15,
         327.15,
@@ -1197,7 +1206,8 @@
     },
     {
       "index": 10,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[10]",
+      "name": "unitTests.x[10]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[10]",
       "values": [
         315.15,
         315.15,
@@ -1305,7 +1315,8 @@
     },
     {
       "index": 11,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[11]",
+      "name": "unitTests.x[11]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[11]",
       "values": [
         301.15,
         301.15,
@@ -1413,7 +1424,8 @@
     },
     {
       "index": 12,
-      "name": "cat(\n        1,\n        {T_H.T},\n        wall1.materials.T,\n        {T_C.T})[12]",
+      "name": "unitTests.x[12]",
+      "expression": "cat(1, {T_H.T}, wall1.materials.T, {T_C.T})[12]",
       "values": [
         293.15,
         293.15,

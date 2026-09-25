@@ -592,7 +592,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "intWitRes1.y",
+      "name": "unitTests.x[1]",
+      "expression": "intWitRes1.y",
       "values": [
         2.0,
         2.01,
@@ -1109,7 +1110,8 @@
     },
     {
       "index": 2,
-      "name": "intWitRes2.y",
+      "name": "unitTests.x[2]",
+      "expression": "intWitRes2.y",
       "values": [
         -5.0,
         -4.99,
@@ -1626,7 +1628,8 @@
     },
     {
       "index": 3,
-      "name": "intDef.y",
+      "name": "unitTests.x[3]",
+      "expression": "intDef.y",
       "values": [
         0.0,
         0.02,
@@ -2143,7 +2146,8 @@
     },
     {
       "index": 4,
-      "name": "intNoReset.y",
+      "name": "unitTests.x[4]",
+      "expression": "intNoReset.y",
       "values": [
         1.0,
         1.01,

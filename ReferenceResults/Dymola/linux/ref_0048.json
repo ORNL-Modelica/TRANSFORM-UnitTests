@@ -221,7 +221,8 @@
   "variables": [
     {
       "index": 1,
-      "name": "eta_overall",
+      "name": "unitTests.x[1]",
+      "expression": "eta_overall",
       "values": [
         0.2997909,
         0.2997909,
