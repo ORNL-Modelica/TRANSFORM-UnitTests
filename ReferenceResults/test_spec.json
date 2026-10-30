@@ -115,6 +115,18 @@
       "simulation": {
         "timeout": 240
       }
+    },
+    {
+      "model": "TRANSFORM.Examples.MoltenSaltReactor.Components.Examples.DRACS_Test",
+      "simulation": {
+        "timeout": 240
+      }
+    },
+    {
+      "model": "TRANSFORM.Examples.MoltenSaltReactor.MSDR_noBOP",
+      "simulation": {
+        "timeout": 240
+      }
     }
   ]
 }
