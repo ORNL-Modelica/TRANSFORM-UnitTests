@@ -42,3 +42,23 @@ Tests are discovered directly from the library's `UnitTests` components and
 `<work_dir>/dashboard.html`, which becomes the final report after comparison.
 See the DSTF repo for the full CLI, comparison modes, and configuration
 reference.
+
+## Conversion guard
+
+`scripts/check_conversion.py` checks that the current TRANSFORM library still
+says how to upgrade models written for its last release. It exports the
+release tag's `TRANSFORM/` folder (by default the newest `v*` tag reachable
+from the library's HEAD) and runs Dymola's `checkConversion` against it. Run it
+by hand before merging a library PR (needs Dymola and Python 3, nothing else):
+
+```bash
+python3 scripts/check_conversion.py                     # library at ../TRANSFORM-Library
+python3 scripts/check_conversion.py --library PATH --tag v1.0 --dymola dymola
+```
+
+Exit codes: `0` pass; `1` checkConversion failed (the printed rows name the
+classes, e.g. "Old class is missing, without conversion") or the library
+`version` was not bumped since the tag, so there is nothing to check; `2` setup
+error, Dymola timeout (`--timeout`, default 900 s) or no result in the log.
+The work folder (kept; `--work` to choose it) holds `run.mos`, `dymola.log`
+and `conversion_report.html`.
