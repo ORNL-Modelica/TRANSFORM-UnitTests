@@ -9,7 +9,7 @@ Exit codes:
   0  checkConversion returned true
   1  checkConversion returned false, or the library version was not bumped
      since the tag (so there is nothing to check)
-  2  setup error, timeout, missing log, or no RESULT line in the log
+  2  setup error, timeout, the library failed to open, or no result
 
 Python 3, standard library only.
 """
@@ -18,6 +18,7 @@ import argparse
 import html
 import os
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -28,7 +29,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # Top-level `version="..."` of the package annotation. Anchored at line start
 # so the `Modelica(version="4.0.0")` entries inside uses(...) do not match.
 VERSION_RE = re.compile(r'^\s*version\s*=\s*"([^"]+)"', re.M)
-RESULT_RE = re.compile(r"^RESULT checkConversion=(true|false)\s*$", re.M)
+RESULT_RE = re.compile(r"^RESULT (openModel|checkConversion)=(true|false)\s*$", re.M)
 
 
 class SetupError(Exception):
@@ -58,7 +59,9 @@ def mo_str(s):
 
 
 def export_tag(repo, tag, dest):
-    dest.mkdir(parents=True, exist_ok=True)
+    if dest.exists():
+        shutil.rmtree(dest)  # a reused --work must not mix in files from an earlier tag
+    dest.mkdir(parents=True)
     archive = subprocess.Popen(["git", "-C", str(repo), "archive", tag, "TRANSFORM"],
                                stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     untar = subprocess.run(["tar", "-x", "-C", str(dest)], stdin=archive.stdout,
@@ -128,7 +131,7 @@ def main(argv=None):
         export_tag(repo, tag, old_root)
         old_pkg = old_root / "TRANSFORM" / "package.mo"
         old_ver = read_version(old_pkg)
-    except SetupError as e:
+    except (SetupError, OSError) as e:
         print("SETUP ERROR: %s" % e)
         if work:
             print("work folder: %s" % work)
@@ -145,18 +148,21 @@ def main(argv=None):
         return 1
 
     log = work / "dymola.log"
-    if log.exists():
-        log.unlink()
-    if report.exists():
-        report.unlink()
+    # Each step also prints to its own file: if a command errors, Dymola -nowindow
+    # stops the script but stays open, so savelog never runs and only this file
+    # shows how far it got.
+    progress = work / "progress.txt"
+    for f in (log, report, progress):
+        if f.exists():
+            f.unlink()
     mos = work / "run.mos"
     mos.write_text("\n".join([
         "Advanced.TranslationInCommandLog := true;",
         "ok := openModel(%s, changeDirectory=false);" % mo_str(cur_pkg),
-        'Modelica.Utilities.Streams.print("RESULT openModel=" + String(ok));',
+        'Modelica.Utilities.Streams.print("RESULT openModel=" + String(ok), %s);' % mo_str(progress),
         'r := checkConversion("TRANSFORM", %s, {%s}, reportPath=%s);'
         % (mo_str(old_ver), mo_str(old_pkg), mo_str(report)),
-        'Modelica.Utilities.Streams.print("RESULT checkConversion=" + String(r));',
+        'Modelica.Utilities.Streams.print("RESULT checkConversion=" + String(r), %s);' % mo_str(progress),
         "savelog(%s);" % mo_str(log),
         "exit();",
         "",
@@ -175,22 +181,25 @@ def main(argv=None):
         return 2
     except subprocess.TimeoutExpired:
         summary("TIMEOUT")
-        print("Dymola did not finish within %g s. Last log lines:" % a.timeout)
+        print("Dymola did not finish within %g s. A script command probably failed; "
+              "steps completed:" % a.timeout)
+        print("\n".join(tail(progress)))
+        return 2
+
+    results = dict(RESULT_RE.findall(progress.read_text(encoding="utf-8", errors="replace"))
+                   if progress.is_file() else [])
+    if results.get("openModel") != "true":
+        summary("ERROR")
+        print("Dymola could not open %s. Last log lines:" % cur_pkg)
+        print("\n".join(tail(log)))
+        return 2
+    if "checkConversion" not in results:
+        summary("ERROR")
+        print("No checkConversion result in %s. Last log lines:" % progress)
         print("\n".join(tail(log)))
         return 2
 
-    if not log.is_file():
-        summary("ERROR")
-        print("Dymola wrote no log at %s." % log)
-        return 2
-    m = RESULT_RE.findall(log.read_text(encoding="utf-8", errors="replace"))
-    if not m:
-        summary("ERROR")
-        print("No 'RESULT checkConversion=' line in %s. Last log lines:" % log)
-        print("\n".join(tail(log)))
-        return 2
-
-    if m[-1] == "true":
+    if results["checkConversion"] == "true":
         summary("PASS")
         print("report: %s" % report)
         return 0
