@@ -37,6 +37,14 @@ dstf --config ReferenceResults/testing.json compare --accept
 dstf --config ReferenceResults/testing.json run --parallel 4 --report
 ```
 
+OpenModelica runs load the libraries named in TRANSFORM's `uses` annotation
+from OpenModelica's own library folder. The look-up table tests
+(`Groeneveld2006LUT`, `Groeneveld2006LUT_withKs`,
+`Groeneveld2001LUT_FilmBoilingCoefficient`,
+`check_Alphas_TwoPhase_3Region_CHFtransition_F1D`) need SDF there; install it
+once with `omc` running `installPackage(SDF, "0.4.5")`. Dymola
+2026x ships SDF.
+
 Tests are discovered directly from the library's `UnitTests` components and
 `test_spec.json` — no generated script files. Progress is shown live in
 `<work_dir>/dashboard.html`, which becomes the final report after comparison.
