@@ -3,7 +3,7 @@
   "test_id": "0011",
   "status": "active",
   "date_added": "2026-04-22T17:28:46.818647+00:00",
-  "last_updated": "2026-04-22T17:28:46.818647+00:00",
+  "last_updated": "2026-11-03T17:04:38.882864+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
@@ -11,19 +11,39 @@
     "number_of_intervals": 100,
     "output_interval": null
   },
+  "sampling": {
+    "setting": "all",
+    "source_points": 105,
+    "stored_points": 105,
+    "precision": "double"
+  },
+  "provenance": {
+    "backend": "OpenModelica",
+    "backend_name": "OpenModelica",
+    "tool_version": "OpenModelica 1.27.1~2-g6db4671",
+    "library_versions": {
+      "Modelica": "4.1.0"
+    },
+    "dstf_version": "1.3.0",
+    "os": "linux",
+    "run_started": "2026-11-03T16:56:36+00:00"
+  },
   "statistics": {
     "timing": {
-      "frontend": 0.3314035,
-      "backend": 0.0040507,
-      "simcode": 0.0012909,
-      "templates": 0.09017379999999997,
-      "compile": 3.1120509,
-      "simulation": 0.046743400000000004,
-      "total": 3.5884253,
-      "translation_wall": 3.54,
-      "sim_wall": 0.05,
-      "other_wall": 48.29,
-      "total_wall": 51.88
+      "frontend": 0.0029958880000000004,
+      "backend": 0.0019117910000000001,
+      "simcode": 0.000681746,
+      "templates": 0.004096789,
+      "compile": 0.38168454799999996,
+      "simulation": 0.012530776,
+      "total": 0.40395719099999994,
+      "translation_wall": 0.39,
+      "sim_wall": 0.01,
+      "other_wall": 0.03,
+      "total_wall": 0.44
+    },
+    "translation": {
+      "continuous_time_states": 0
     }
   },
   "n_vars": 1,
@@ -55,8 +75,6 @@
     0.24,
     0.25,
     0.25,
-    0.250000012500095,
-    0.250000012500095,
     0.26,
     0.27,
     0.28,
@@ -107,8 +125,8 @@
     0.73,
     0.74,
     0.75,
-    0.750000022500171,
-    0.750000022500171,
+    0.7500000225001713,
+    0.7500000225001713,
     0.76,
     0.77,
     0.78,
@@ -142,8 +160,6 @@
       "name": "unitTests.x[1]",
       "expression": "booleanToReal.y",
       "values": [
-        0.0,
-        0.0,
         0.0,
         0.0,
         0.0,
