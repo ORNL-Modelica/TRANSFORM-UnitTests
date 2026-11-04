@@ -127,6 +127,12 @@
       "simulation": {
         "timeout": 240
       }
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.Example_2_2_1_2DFin",
+      "simulation": {
+        "timeout": 240
+      }
     }
   ]
 }
