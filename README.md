@@ -71,5 +71,8 @@ classes, e.g. "Old class is missing, without conversion") or the library
 error, Dymola timeout (`--timeout`, default 900 s; a failing script command
 shows up as a timeout, and `progress.txt` shows how far it got), the library
 failed to open, or no result.
-The work folder (kept; `--work` to choose it) holds `run.mos`, `progress.txt`,
-`dymola.log` and `conversion_report.html`.
+The work folder holds `run.mos`, `progress.txt`, `dymola.log`,
+`conversion_report.html` and the exported old release (about 85 MB). By default
+it is a new temp folder, deleted after a pass or a "not bumped" result and kept
+after a failure, error or timeout; `--keep` keeps it always, and a folder given
+with `--work` is never deleted.
