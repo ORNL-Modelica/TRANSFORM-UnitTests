@@ -111,11 +111,16 @@ def main(argv=None):
     ap.add_argument("--dymola", default="dymola", help="Dymola command (default: %(default)s)")
     ap.add_argument("--timeout", type=float, default=900,
                     help="seconds before Dymola is killed (default: %(default)s)")
-    ap.add_argument("--work", help="work folder (default: a new temp folder, kept)")
+    ap.add_argument("--work", help="work folder (default: a new temp folder, deleted after a PASS or "
+                    "NOT BUMPED result, kept otherwise; a --work folder is always kept)")
+    ap.add_argument("--keep", action="store_true", help="keep the temp work folder in every case")
     ap.add_argument("--report", help="checkConversion HTML report (default: <work>/conversion_report.html)")
     a = ap.parse_args(argv)
 
     work = None
+    # A temp folder holds an 85 MB export of the old release. Delete it when there is
+    # nothing to inspect: kept, the folders filled a 32 GB RAM-backed /tmp (2026-11-04).
+    remove_work = not a.work and not a.keep
     try:
         library = Path(a.library).resolve()
         repo = Path(a.repo).resolve() if a.repo else library
@@ -145,6 +150,9 @@ def main(argv=None):
         summary("NOT BUMPED")
         print("The library version was not bumped since %s (both say %s), so "
               "checkConversion has nothing to check." % (tag, cur_ver))
+        if remove_work:
+            shutil.rmtree(work, ignore_errors=True)
+            print("work folder removed (--keep or --work keeps it)")
         return 1
 
     log = work / "dymola.log"
@@ -201,7 +209,11 @@ def main(argv=None):
 
     if results["checkConversion"] == "true":
         summary("PASS")
-        print("report: %s" % report)
+        if remove_work:
+            shutil.rmtree(work, ignore_errors=True)
+            print("work folder removed (--keep or --work keeps it)")
+        if report.exists():
+            print("report: %s" % report)
         return 0
     summary("FAIL")
     print("checkConversion returned false: the library does not fully declare how to "
