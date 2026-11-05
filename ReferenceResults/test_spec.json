@@ -154,7 +154,12 @@
       "model": "TRANSFORM.Examples.MoltenSaltReactor.Components.Examples.DRACS_Test",
       "simulation": {
         "timeout": 240
-      }
+      },
+      "variables": [
+        "DRACS.riser_DRACS.mediums[10].T",
+        "DRACS.downcomer_DRACS.mediums[10].T",
+        "DRACS.riser_DRACS.mediums[1].p"
+      ]
     },
     {
       "model": "TRANSFORM.Examples.MoltenSaltReactor.MSDR_noBOP",
