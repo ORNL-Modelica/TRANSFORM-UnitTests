@@ -54,6 +54,20 @@
       }
     },
     {
+      "model": "TRANSFORM.Fluid.Examples.MSLFluid.BranchingDynamicPipes",
+      "variables": [
+        "pipe2.port_a.m_flow",
+        "pipe3.port_a.m_flow"
+      ]
+    },
+    {
+      "model": "TRANSFORM.Fluid.Examples.MSLFluid.BranchingDynamicPipes_MultiSurface",
+      "variables": [
+        "pipe2.port_a.m_flow",
+        "pipe3.port_a.m_flow"
+      ]
+    },
+    {
       "model": "TRANSFORM.Examples.CIET_Facility.Examples.CIET_nureth",
       "simulation": {
         "timeout": 240
