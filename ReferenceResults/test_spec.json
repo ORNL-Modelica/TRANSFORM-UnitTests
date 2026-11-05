@@ -90,6 +90,13 @@
       }
     },
     {
+      "model": "TRANSFORM.Fluid.Volumes.Examples.Pressurizer_Test",
+      "variables": [
+        "drum2Phase.p",
+        "drum2Phase.Q_vl"
+      ]
+    },
+    {
       "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Drift_Test_flat",
       "simulation": {
         "timeout": 240
