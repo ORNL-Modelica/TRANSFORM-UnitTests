@@ -1,9 +1,9 @@
 {
-  "model_id": "TRANSFORM.Media.Solids.Examples.AlloyEnthalpy_FixedT",
-  "test_id": "0336",
+  "model_id": "TRANSFORMTest.Media.Solids.AlloyEnthalpy_FixedT",
+  "test_id": "0001",
   "status": "active",
-  "date_added": "2026-11-04T15:19:07.178434+00:00",
-  "last_updated": "2026-11-04T15:19:07.178434+00:00",
+  "date_added": "2026-11-05T01:19:54.454773+00:00",
+  "last_updated": "2026-11-05T01:19:54.454773+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
@@ -26,11 +26,11 @@
     },
     "dstf_version": "1.3.0",
     "os": "linux",
-    "run_started": "2026-11-04T15:13:53+00:00"
+    "run_started": "2026-11-05T01:16:30+00:00"
   },
   "statistics": {
     "simulation": {
-      "cpu_time_integration": 0.00151,
+      "cpu_time_integration": 0.00157,
       "result_points": 502,
       "accepted_steps": 19,
       "f_evaluations": 19,
@@ -74,18 +74,18 @@
       "linear_after_manipulation_max": 0
     },
     "timing": {
-      "translation_wall": 10.62,
+      "translation_wall": 31.22,
       "sim_wall": 0.03,
-      "other_wall": 0.04,
-      "total_wall": 10.68
+      "other_wall": 0.07,
+      "total_wall": 31.32
     }
   },
   "diagnostics": [
     {
       "name": "CPUtime",
-      "final": 0.001601999974809587,
-      "min": 8.499999967170879e-05,
-      "max": 0.001601999974809587
+      "final": 0.0017559999832883477,
+      "min": 0.00018699999782256782,
+      "max": 0.0017559999832883477
     },
     {
       "name": "EventCounter",
