@@ -51,6 +51,43 @@ Tests are discovered directly from the library's `UnitTests` components and
 See the DSTF repo for the full CLI, comparison modes, and configuration
 reference.
 
+## TRANSFORMTest: tests beyond the examples
+
+`TRANSFORMTest/` is a second Modelica library, for tests that are not teaching
+examples. It is not shipped with TRANSFORM. TRANSFORM's own examples stay in
+TRANSFORM and remain tests; only new tests go here. Its package tree mirrors
+TRANSFORM's (a test of `TRANSFORM.Media.Solids` sits in
+`TRANSFORMTest.Media.Solids`). Its `uses` annotation carries the version string
+of the TRANSFORM it tests; it has no releases of its own. Its DSTF config and
+baselines are in `TRANSFORMTest/Resources/ReferenceResults/`; the config loads
+TRANSFORM from `../TRANSFORM-Library/TRANSFORM`.
+
+```bash
+dstf --config TRANSFORMTest/Resources/ReferenceResults/testing.json run
+```
+
+What earns a test, in either library:
+
+1. Every finished example in TRANSFORM is a test. Not: examples in InProgress
+   or obsolete packages, or a close copy whose failures always coincide with
+   another test's.
+2. Every public function runs in at least one test, directly or inside a
+   model. An uncovered function gets a small `check_` model only if users call
+   it; one used only internally is covered through its caller.
+3. Track what would change if the physics broke: for each key component a
+   state (temperature, pressure, level) and a flow (heat, mass flow). Not
+   inputs, constants or aliases of each other. Aim for 2–6 variables.
+4. A new test needs a reason: a fixed bug (regression test), an uncovered
+   public class, or a model option users rely on that no test turns on.
+5. No test duplicates another's failure signal, and none exists only to raise
+   the count.
+
+A TRANSFORM change still comes as two PRs: one in TRANSFORM-Library, one here
+with any new `TRANSFORMTest` test and the baseline updates. Before merging,
+run the affected tests of both suites and the conversion guard; run both
+suites in full at milestones. `TRANSFORMTest` has no CHANGELOG: TRANSFORM's
+CHANGELOG names a new test by its path.
+
 ## Conversion guard
 
 `scripts/check_conversion.py` checks that the current TRANSFORM library still

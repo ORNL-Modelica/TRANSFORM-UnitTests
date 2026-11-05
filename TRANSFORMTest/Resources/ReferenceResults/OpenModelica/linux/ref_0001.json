@@ -1,13 +1,13 @@
 {
-  "model_id": "TRANSFORM.Media.Solids.Examples.AlloyEnthalpy_FixedT",
-  "test_id": "0291",
+  "model_id": "TRANSFORMTest.Media.Solids.AlloyEnthalpy_FixedT",
+  "test_id": "0001",
   "status": "active",
-  "date_added": "2026-11-04T16:58:21.510023+00:00",
-  "last_updated": "2026-11-04T16:58:21.510023+00:00",
+  "date_added": "2026-11-05T01:19:57.577537+00:00",
+  "last_updated": "2026-11-05T01:19:57.577537+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
-    "method": "Dassl",
+    "method": "dassl",
     "number_of_intervals": 500,
     "output_interval": null
   },
@@ -26,21 +26,21 @@
     },
     "dstf_version": "1.3.0",
     "os": "linux",
-    "run_started": "2026-11-04T16:54:46+00:00"
+    "run_started": "2026-11-05T01:17:19+00:00"
   },
   "statistics": {
     "timing": {
-      "frontend": 0.010678224,
-      "backend": 0.003046633,
-      "simcode": 0.001178307,
-      "templates": 0.005783354,
-      "compile": 0.40346035100000005,
-      "simulation": 0.012376757,
-      "total": 0.43660306400000004,
-      "translation_wall": 0.42,
-      "sim_wall": 0.01,
-      "other_wall": 0.03,
-      "total_wall": 0.47
+      "frontend": 0.014149534,
+      "backend": 0.004255376,
+      "simcode": 0.001626416,
+      "templates": 0.005741843,
+      "compile": 0.572765748,
+      "simulation": 0.016121075000000002,
+      "total": 0.6147757850000001,
+      "translation_wall": 0.6,
+      "sim_wall": 0.02,
+      "other_wall": 0.23,
+      "total_wall": 0.84
     },
     "translation": {
       "continuous_time_states": 0
