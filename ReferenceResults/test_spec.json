@@ -131,6 +131,12 @@
       }
     },
     {
+      "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Test",
+      "variables": [
+        "kinetics.Cs[1]"
+      ]
+    },
+    {
       "model": "TRANSFORM.Examples.MoltenSaltReactor.Components.Examples.DRACS_Test",
       "simulation": {
         "timeout": 240
