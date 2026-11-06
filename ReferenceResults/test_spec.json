@@ -206,6 +206,14 @@
       "simulation": {
         "timeout": 240
       }
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.Example_1_9_2_CryogenicCurrentLeads",
+      "variables": [
+        "T_H.port.Q_flow",
+        "lead.materials[25].T",
+        "lead.materials[75].T"
+      ]
     }
   ]
 }
