@@ -79,6 +79,28 @@
       ]
     },
     {
+      "model": "TRANSFORM.Fluid.Pipes.Examples.GenericPipe_Tests.nParallel_withWall_FlowBoundary",
+      "variables": [
+        "pipe_single.heatPorts[1].T",
+        "pipe_nParallel.heatPorts[1].T",
+        "pipe_single.port_b.h_outflow",
+        "pipe_nParallel.port_b.h_outflow",
+        "pipe_single.port_b.C_outflow[1]",
+        "pipe_nParallel.port_b.C_outflow[1]"
+      ]
+    },
+    {
+      "model": "TRANSFORM.Fluid.Pipes.Examples.GenericPipe_Tests.nParallel_withWall_StateBoundary",
+      "variables": [
+        "pipe_single.heatPorts[1].T",
+        "pipe_nParallel.heatPorts[1].T",
+        "pipe_single.port_b.h_outflow",
+        "pipe_nParallel.port_b.h_outflow",
+        "pipe_single.port_b.C_outflow[1]",
+        "pipe_nParallel.port_b.C_outflow[1]"
+      ]
+    },
+    {
       "model": "TRANSFORM.Examples.CIET_Facility.Examples.CIET_nureth",
       "simulation": {
         "timeout": 240
