@@ -134,7 +134,10 @@
       "model": "TRANSFORM.Fluid.Examples.TritiumExamples.PbLiTest2",
       "simulation": {
         "timeout": 240
-      }
+      },
+      "variables": [
+        "permeator.wall.materials[1,10].T"
+      ]
     },
     {
       "model": "TRANSFORM.Fluid.Volumes.Examples.Pressurizer_Test",
@@ -213,6 +216,18 @@
         "T_H.port.Q_flow",
         "lead.materials[25].T",
         "lead.materials[75].T"
+      ]
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.WindingDiscretizedModels.Winding_12D_variableArea",
+      "variables": [
+        "winding.materials[1,1].T"
+      ]
+    },
+    {
+      "model": "TRANSFORM.Fluid.Pipes.Examples.GenericPipe_Tests.withWall",
+      "variables": [
+        "pipe.wall.materials[1,1].T"
       ]
     }
   ]
