@@ -1128,7 +1128,7 @@
     },
     {
       "index": 2,
-      "name": "pipe.wall.materials[1, 1].T",
+      "name": "pipe.wall.materials[1,1].T",
       "expression": "",
       "values": [
         298.149994,

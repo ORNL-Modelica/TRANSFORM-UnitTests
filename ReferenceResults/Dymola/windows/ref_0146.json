@@ -369,7 +369,7 @@
     },
     {
       "index": 2,
-      "name": "winding.materials[1, 1].T",
+      "name": "winding.materials[1,1].T",
       "expression": "",
       "values": [
         320.0,

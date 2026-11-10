@@ -1995,7 +1995,7 @@
     },
     {
       "index": 2,
-      "name": "permeator.wall.materials[1, 10].T",
+      "name": "permeator.wall.materials[1,10].T",
       "expression": "",
       "values": [
         743.150024,

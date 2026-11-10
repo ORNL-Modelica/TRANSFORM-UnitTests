@@ -136,7 +136,7 @@
         "timeout": 240
       },
       "variables": [
-        "permeator.wall.materials[1, 10].T"
+        "permeator.wall.materials[1,10].T"
       ]
     },
     {
@@ -221,13 +221,13 @@
     {
       "model": "TRANSFORM.HeatAndMassTransfer.Examples.WindingDiscretizedModels.Winding_12D_variableArea",
       "variables": [
-        "winding.materials[1, 1].T"
+        "winding.materials[1,1].T"
       ]
     },
     {
       "model": "TRANSFORM.Fluid.Pipes.Examples.GenericPipe_Tests.withWall",
       "variables": [
-        "pipe.wall.materials[1, 1].T"
+        "pipe.wall.materials[1,1].T"
       ]
     }
   ]
