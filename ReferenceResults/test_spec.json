@@ -229,6 +229,14 @@
       "variables": [
         "pipe.wall.materials[1,1].T"
       ]
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.WindingDiscretizedModels.Winding_12D_withMass",
+      "variables": [
+        "winding.materials[5,1].T",
+        "winding.materials[1,10].T",
+        "winding.Cs[5,1,1]"
+      ]
     }
   ]
 }
