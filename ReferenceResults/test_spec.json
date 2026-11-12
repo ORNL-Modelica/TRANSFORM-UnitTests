@@ -62,6 +62,9 @@
     },
     {
       "model": "TRANSFORM.Fluid.Examples.NaturalCirculation",
+      "simulation": {
+        "timeout": 120
+      },
       "variables": [
         "riser.mediums[1].p",
         "downcomer.mediums[10].T",
