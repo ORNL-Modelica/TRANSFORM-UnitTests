@@ -90,6 +90,17 @@
       ]
     },
     {
+      "model": "TRANSFORM.Fluid.Pipes.Examples.GenericPipe_MultiTransferSurface.nParallel_FlowBoundary_MultiTransferSurface",
+      "variables": [
+        "pipe_single.port_b.h_outflow",
+        "pipe_nParallel.port_b.h_outflow",
+        "pipe_single.port_b.C_outflow[1]",
+        "pipe_nParallel.port_b.C_outflow[1]",
+        "pipe_single.mediums[1].p",
+        "pipe_nParallel.mediums[1].p"
+      ]
+    },
+    {
       "model": "TRANSFORM.Fluid.Pipes.Examples.GenericPipe_Tests.nParallel_withWall_FlowBoundary",
       "variables": [
         "pipe_single.heatPorts[1].T",
