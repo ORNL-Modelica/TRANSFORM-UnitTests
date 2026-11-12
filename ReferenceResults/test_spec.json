@@ -126,7 +126,13 @@
       "model": "TRANSFORM.Examples.CIET_Facility.Examples.CIET_nureth",
       "simulation": {
         "timeout": 240
-      }
+      },
+      "variables": [
+        "S1.port_a.p",
+        "volume.medium.p",
+        "S10.pipe.mediums[4].T",
+        "tank1.m"
+      ]
     },
     {
       "model": "TRANSFORM.Examples.LightWaterReactor_PWR_Westinghouse.Examples.NSSS_Test",
