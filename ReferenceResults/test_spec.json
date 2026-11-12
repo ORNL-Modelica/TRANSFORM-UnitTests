@@ -151,7 +151,9 @@
         "S1.port_a.p",
         "volume.medium.p",
         "S10.pipe.mediums[4].T",
-        "tank1.m"
+        "tank1.m",
+        "tank1.level",
+        "tank1.state_liquid.T"
       ]
     },
     {
