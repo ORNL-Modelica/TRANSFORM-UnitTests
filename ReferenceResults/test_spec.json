@@ -61,6 +61,23 @@
       ]
     },
     {
+      "model": "TRANSFORM.Fluid.Examples.NaturalCirculation",
+      "variables": [
+        "riser.mediums[1].p",
+        "downcomer.mediums[10].T",
+        "expansionTank.level"
+      ]
+    },
+    {
+      "model": "TRANSFORM.Fluid.Examples.NaturalCirculation2",
+      "variables": [
+        "riser.mediums[1].p",
+        "downcomer.mediums[10].T",
+        "expansionTank_riser.level",
+        "expansionTank_downcomer.level"
+      ]
+    },
+    {
       "model": "TRANSFORM.Fluid.Examples.MSLFluid.BranchingDynamicPipes_MultiSurface",
       "variables": [
         "pipe2.port_a.m_flow",
