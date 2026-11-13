@@ -43,7 +43,17 @@ from OpenModelica's own library folder. The look-up table tests
 `Groeneveld2001LUT_FilmBoilingCoefficient`,
 `check_Alphas_TwoPhase_3Region_CHFtransition_F1D`) need SDF there; install it
 once with `omc` running `installPackage(SDF, "0.4.5")`. Dymola
-2026x ships SDF.
+2026x ships SDF. If `installPackage` fails on Windows ("Failed to open file
+for writing"), unzip the archive it downloaded,
+`%APPDATA%\.openmodelica\cache\SDF-Modelica-0.4.5.zip`, so that the contents
+of its `SDF` folder land in `%APPDATA%\.openmodelica\libraries\SDF 0.4.5`.
+
+OpenModelica baselines are kept for Linux (`ReferenceResults/OpenModelica/linux`,
+OpenModelica 1.27.2) and Windows (`ReferenceResults/OpenModelica/windows`,
+OpenModelica 1.27.1, the newest Windows build). Each OS is compared with its
+own baselines. The OpenModelica backend needs DSTF's `om` extra
+(`uv run --extra om ...`). Record a new or changed OpenModelica baseline on
+both OSes in the same pull request, as for Dymola.
 
 Tests are discovered directly from the library's `UnitTests` components and
 `test_spec.json` — no generated script files. Progress is shown live in
