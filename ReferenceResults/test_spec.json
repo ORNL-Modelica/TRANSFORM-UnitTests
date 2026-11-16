@@ -19,6 +19,12 @@
       }
     },
     {
+      "model": "TRANSFORM.HeatExchangers.Examples.SteamWater_HCSG",
+      "simulation": {
+        "timeout": 120
+      }
+    },
+    {
       "model": "TRANSFORM.HeatExchangers.Examples.WaterWater_STHX",
       "comparison": {
         "tolerance": 0.001
