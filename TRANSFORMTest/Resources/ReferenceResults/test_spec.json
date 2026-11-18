@@ -83,6 +83,51 @@
           }
         ]
       }
+    },
+    {
+      "model": "TRANSFORMTest.Fluid.Machines.StodolaTurbines_Nominal",
+      "description": "At the nominal point the flow must equal m_flow_nominal: each gap must be within 1e-9 (it is 0).",
+      "metrics": {
+        "combinator": "and",
+        "children": [
+          {
+            "metric": "range",
+            "variable": "unitTests.x[1]",
+            "min_value": -1e-09,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[2]",
+            "min_value": -1e-09,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[3]",
+            "min_value": -1e-09,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[4]",
+            "min_value": -1e-09,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[5]",
+            "min_value": -1e-09,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[6]",
+            "min_value": -1e-09,
+            "max_value": 1e-09
+          }
+        ]
+      }
     }
   ]
 }
