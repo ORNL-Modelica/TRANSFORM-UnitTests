@@ -5,8 +5,14 @@ Checks, with Dymola's checkConversion, that the current TRANSFORM library still
 declares how to upgrade models written for its last release (a git tag). Run it
 by hand before merging library PRs.
 
+A deliberate removal passes too: a class missing since the tag is accepted when
+the report says only that it is missing, and the library lists it (or a package
+removed with it) in TRANSFORM/Resources/Scripts/Conversion/Removed_<version>.txt for
+a version newer than the tag and not newer than the library (one class name per line;
+# starts a comment). A listed name that still exists fails the guard.
+
 Exit codes:
-  0  checkConversion returned true
+  0  checkConversion returned true, or every problem it reports is a listed removal
   1  checkConversion returned false, or the library version was not bumped
      since the tag (so there is nothing to check)
   2  setup error, timeout, the library failed to open, or no result
@@ -93,6 +99,69 @@ def report_rows(report):
                  for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S | re.I)]
         out.append(" | ".join(cells))
     return out
+
+
+# Report messages that a listed removal may explain. Any other message still fails.
+REMOVAL_MESSAGES = ("Old class is missing", "Conversion missing in a model extending")
+
+
+def table_rows(report):
+    """Return the report's table rows as lists of plain-text cells."""
+    if not report.is_file():
+        return []
+    text = report.read_text(encoding="utf-8", errors="replace")
+    rows = []
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", text, re.S | re.I):
+        if re.search(r"<th", row, re.I):
+            continue
+        rows.append([" ".join(html.unescape(re.sub(r"<[^>]+>", " ", c)).split())
+                     for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S | re.I)])
+    return rows
+
+
+def version_key(v):
+    """(major, minor, patch) of a version string such as 1.4.0 or 1.4.0-dev."""
+    nums = [int(x) for x in re.findall(r"\d+", v.split("-")[0])[:3]]
+    return tuple(nums + [0] * (3 - len(nums)))
+
+
+def load_removed(library, old_ver, cur_ver=None):
+    """Class names listed as removed for versions newer than old_ver (and not newer than
+    cur_ver), and the files read."""
+    folder = library / "TRANSFORM" / "Resources" / "Scripts" / "Conversion"
+    names, files = [], []
+    for f in sorted(folder.glob("Removed_*.txt")) if folder.is_dir() else []:
+        v = version_key(f.stem[len("Removed_"):])
+        if v <= version_key(old_ver) or (cur_ver and v > version_key(cur_ver)):
+            continue
+        files.append(f)
+        for line in f.read_text(encoding="utf-8", errors="replace").splitlines():
+            line = line.split("#", 1)[0].strip()
+            if line:
+                names.append(line)
+    return names, files
+
+
+def still_present(library, removed):
+    """Listed names that still exist in the library as a file or package folder: a list
+    must name only what is gone, or it would excuse the removal of anything inside it."""
+    found = []
+    for name in removed:
+        parts = name.split(".")
+        if parts[0] != "TRANSFORM":
+            continue
+        rel = Path(library, *parts)
+        if rel.with_suffix(".mo").is_file() or (rel / "package.mo").is_file():
+            found.append(name)
+    return found
+
+
+def unexplained(rows, removed):
+    """The report rows that a listed removal does not explain."""
+    def listed(cls):
+        return any(cls == r or cls.startswith(r + ".") for r in removed)
+    return [r for r in rows
+            if not (len(r) >= 2 and r[0].startswith(REMOVAL_MESSAGES) and listed(r[1]))]
 
 
 def tail(path, n=20):
@@ -215,7 +284,27 @@ def main(argv=None):
         if report.exists():
             print("report: %s" % report)
         return 0
+    rows = table_rows(report)
+    removed, removed_files = load_removed(library, old_ver, cur_ver)
+    present = still_present(library, removed)
+    if present:
+        summary("FAIL")
+        print("The removal list names classes that still exist, so it would excuse anything "
+              "inside them: %s" % ", ".join(present))
+        return 1
+    left = unexplained(rows, removed)
+    if rows and not left:
+        summary("PASS")
+        print("checkConversion returned false only for %d classes listed as removed in %s."
+              % (len(rows), ", ".join(f.name for f in removed_files)))
+        if remove_work:
+            shutil.rmtree(work, ignore_errors=True)
+            print("work folder removed (--keep or --work keeps it)")
+        return 0
     summary("FAIL")
+    if removed and rows:
+        print("%d of %d reported problems are listed removals; the rest are below."
+              % (len(rows) - len(left), len(rows)))
     print("checkConversion returned false: the library does not fully declare how to "
           "upgrade models written for %s (%s)." % (tag, old_ver))
     print("report: %s" % report)
