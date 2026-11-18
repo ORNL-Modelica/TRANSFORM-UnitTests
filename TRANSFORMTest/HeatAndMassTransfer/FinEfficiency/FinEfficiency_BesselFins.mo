@@ -24,8 +24,8 @@ model FinEfficiency_BesselFins
     r_outer=0.03,
     th=0.001,
     pitch=0.005) annotation (Placement(transformation(extent={{40,-10},{60,10}})));
-  TRANSFORM.Utilities.ErrorAnalysis.UnitTests unitTests(n=4, x={cone.eta,triangle.eta,
-        triangle.surfaceArea,annular.eta})
+  TRANSFORM.Utilities.ErrorAnalysis.UnitTests unitTests(n=5, x={cone.eta,triangle.eta,
+        triangle.surfaceArea,annular.eta,annular.surfaceArea})
     annotation (Placement(transformation(extent={{80,80},{100,100}})));
   annotation (experiment(StopTime=1),
     Documentation(info="<html>
