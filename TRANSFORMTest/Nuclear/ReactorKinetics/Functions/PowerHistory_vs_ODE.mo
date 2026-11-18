@@ -12,8 +12,8 @@ model PowerHistory_vs_ODE
   //   dCs_rel:     largest relative gap between Cs and the integrated C (0 at t_end when right;
   //                0.249 with the dimensionally wrong "- t[i]" term the precursor update had).
   //   dQdecay_rel: relative gap in the decay power sum(lambda_dh*E) (0 at t_end). Not per group:
-  //                the slowest group (lambda_dh = 7.6e-10 1/s) loses about 0.3 % to round-off in
-  //                the closed form over 100-s intervals, and carries almost no decay power.
+  //                the slowest group (lambda_dh = 7.6e-10 1/s) carries almost no decay power, and
+  //                before the function's local-time form it lost about 0.3 % to round-off here.
   //   dCs0_rel, dEs0_rel: an empty history must return the start values Cs_0, Es_0 (1 when they
   //                are ignored, as they were without decay heat in the history).
   //   dStart_rel:  the same history started from Cs_0, Es_0: largest relative gap in Cs or in the
