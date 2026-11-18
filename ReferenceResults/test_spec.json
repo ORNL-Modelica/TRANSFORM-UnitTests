@@ -293,6 +293,12 @@
         "winding.materials[1,10].T",
         "winding.Cs[5,1,1]"
       ]
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_IncroperaAndDeWitt.Example_8_6_UninsulatedDuct",
+      "variables": [
+        "innerSide.R[1]"
+      ]
     }
   ]
 }
