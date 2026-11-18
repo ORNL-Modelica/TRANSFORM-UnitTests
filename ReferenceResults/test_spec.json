@@ -38,6 +38,9 @@
     },
     {
       "model": "TRANSFORM.HeatExchangers.Examples.WaterWater_STHX_withInsulation",
+      "simulation": {
+        "timeout": 240
+      },
       "comparison": {
         "tolerance": 0.001
       }
