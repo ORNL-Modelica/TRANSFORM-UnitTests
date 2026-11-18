@@ -118,6 +118,16 @@ classes, e.g. "Old class is missing, without conversion") or the library
 error, Dymola timeout (`--timeout`, default 900 s; a failing script command
 shows up as a timeout, and `progress.txt` shows how far it got), the library
 failed to open, or no result.
+
+A deliberate removal passes too. When the library removes a deprecated class, it
+lists it in `TRANSFORM/Resources/Scripts/Conversion/Removed_<version>.txt`, one
+class name per line. A package is named only if the whole package goes. The
+guard then accepts a class missing since the tag if three things hold: the
+report says only that the class is missing; the class, or a package holding it,
+is listed for a version newer than the tag and not newer than the library; and
+no listed name still exists. Unit tests for this part need no Dymola:
+`python3 -m unittest scripts/test_check_conversion.py`.
+
 The work folder holds `run.mos`, `progress.txt`, `dymola.log`,
 `conversion_report.html` and the exported old release (about 85 MB). By default
 it is a new temp folder, deleted after a pass or a "not bumped" result and kept
