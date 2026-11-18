@@ -2,7 +2,7 @@
   "model_id": "TRANSFORMTest.HeatAndMassTransfer.FinEfficiency.FinEfficiency_BesselFins",
   "status": "active",
   "date_added": "2026-11-18T02:29:56.935643+00:00",
-  "last_updated": "2026-11-18T02:29:56.935643+00:00",
+  "last_updated": "2026-11-18T02:30:33.660888+00:00",
   "simulation": {
     "stop_time": 1.0,
     "tolerance": 0.0001,
@@ -25,11 +25,11 @@
     },
     "dstf_version": "1.6.0",
     "os": "linux",
-    "run_started": "2026-11-18T02:29:51+00:00"
+    "run_started": "2026-11-18T02:30:28+00:00"
   },
   "statistics": {
     "simulation": {
-      "cpu_time_integration": 0.00144,
+      "cpu_time_integration": 0.00154,
       "result_points": 502,
       "accepted_steps": 19,
       "f_evaluations": 19,
@@ -47,12 +47,12 @@
       "original_unknowns_scalars": 53,
       "original_equations": 37,
       "nontrivial_equations": 19,
-      "constants": 47,
+      "constants": 51,
       "free_parameters": 5,
       "parameter_depending": 3,
       "outputs": 2,
       "time_varying_variables": 1,
-      "alias_variables": 6,
+      "alias_variables": 2,
       "mixed_systems": 0,
       "numerical_jacobians": 0,
       "nonlinear": [],
@@ -73,18 +73,18 @@
       "linear_after_manipulation_max": 0
     },
     "timing": {
-      "translation_wall": 2.13,
+      "translation_wall": 1.99,
       "sim_wall": 0.02,
       "other_wall": 0.02,
-      "total_wall": 2.18
+      "total_wall": 2.04
     }
   },
   "diagnostics": [
     {
       "name": "CPUtime",
-      "final": 0.001551999943330884,
-      "min": 0.00011100000119768083,
-      "max": 0.001551999943330884
+      "final": 0.0016250000335276127,
+      "min": 8.600000001024455e-05,
+      "max": 0.0016250000335276127
     },
     {
       "name": "EventCounter",
