@@ -1,3 +1,88 @@
 {
-  "tests": []
+  "tests": [
+    {
+      "model": "TRANSFORMTest.Nuclear.ReactorKinetics.Functions.PowerHistory_Steps",
+      "description": "The function's gaps to the integrated equations, at the end of the history, must be below 1e-8 (they are 1.5e-10 to 4.1e-10); unitTests.x[3] (sum of Cs) is compared with its baseline.",
+      "metrics": {
+        "combinator": "and",
+        "children": [
+          {
+            "metric": "range",
+            "variable": "unitTests.x[1]",
+            "min_value": 0,
+            "max_value": 1e-08,
+            "window": {
+              "start": 200
+            }
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[2]",
+            "min_value": 0,
+            "max_value": 1e-08,
+            "window": {
+              "start": 200
+            }
+          },
+          {
+            "metric": "nrmse",
+            "variable": "unitTests.x[3]"
+          }
+        ]
+      }
+    },
+    {
+      "model": "TRANSFORMTest.Nuclear.ReactorKinetics.Functions.PowerHistory_DecayHeat",
+      "description": "Each gap to the scipy reference must be below 1e-9 (1.6e-12 to 1.0e-11, set by the references' 12 digits; about 2e-16 for the steady case); unitTests.x[7], x[8] (sums of Cs) are compared with their baselines.",
+      "metrics": {
+        "combinator": "and",
+        "children": [
+          {
+            "metric": "range",
+            "variable": "unitTests.x[1]",
+            "min_value": 0,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[2]",
+            "min_value": 0,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[3]",
+            "min_value": 0,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[4]",
+            "min_value": 0,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[5]",
+            "min_value": 0,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[6]",
+            "min_value": 0,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "nrmse",
+            "variable": "unitTests.x[7]"
+          },
+          {
+            "metric": "nrmse",
+            "variable": "unitTests.x[8]"
+          }
+        ]
+      }
+    }
+  ]
 }
