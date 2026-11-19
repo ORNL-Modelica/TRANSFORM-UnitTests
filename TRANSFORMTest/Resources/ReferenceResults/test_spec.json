@@ -176,6 +176,33 @@
           }
         ]
       }
+    },
+    {
+      "model": "TRANSFORMTest.Fluid.Machines.Pump_PressureControl",
+      "description": "With the default set point each pump holds the port it sets at that port's start pressure: each gap must be within 1e-9 (it is 0).",
+      "metrics": {
+        "combinator": "and",
+        "children": [
+          {
+            "metric": "range",
+            "variable": "unitTests.x[1]",
+            "min_value": -1e-09,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[2]",
+            "min_value": -1e-09,
+            "max_value": 1e-09
+          },
+          {
+            "metric": "range",
+            "variable": "unitTests.x[3]",
+            "min_value": -1e-09,
+            "max_value": 1e-09
+          }
+        ]
+      }
     }
   ]
 }
