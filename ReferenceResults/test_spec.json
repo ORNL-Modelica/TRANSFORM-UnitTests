@@ -4,6 +4,11 @@
       "model": "TRANSFORM.HeatExchangers.Examples.OilWater_CTHX",
       "comparison": {
         "tolerance": 0.05
+      },
+      "backends": {
+        "OpenModelica": {
+          "timeout": 540
+        }
       }
     },
     {
@@ -34,6 +39,11 @@
       "model": "TRANSFORM.HeatExchangers.Examples.WaterWater_STHX_wallR",
       "comparison": {
         "tolerance": 0.001
+      },
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 60 s: OpenModelica's solver is too slow on it"
+        }
       }
     },
     {
@@ -87,7 +97,12 @@
         "downcomer.mediums[10].T",
         "expansionTank_riser.level",
         "expansionTank_downcomer.level"
-      ]
+      ],
+      "backends": {
+        "OpenModelica": {
+          "skip": "needs about 15 min in OpenModelica (922 s measured); kept Dymola-only"
+        }
+      }
     },
     {
       "model": "TRANSFORM.Fluid.Examples.MSLFluid.BranchingDynamicPipes_MultiSurface",
@@ -163,30 +178,55 @@
         "tank1.m",
         "tank1.level",
         "tank1.state_liquid.T"
-      ]
+      ],
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 240 s (cause not found)"
+        }
+      }
     },
     {
       "model": "TRANSFORM.Examples.LightWaterReactor_PWR_Westinghouse.Examples.NSSS_Test",
       "simulation": {
         "timeout": 240
+      },
+      "backends": {
+        "OpenModelica": {
+          "skip": "initialization fails: the nonlinear solver and homotopy both fail at t = 0"
+        }
       }
     },
     {
       "model": "TRANSFORM.Examples.LightWaterSmallModularReactor.Examples.IRIS_Default_Teststandalone",
       "simulation": {
         "timeout": 240
+      },
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 240 s"
+        }
       }
     },
     {
       "model": "TRANSFORM.Examples.SystemOfSubSystems.PHS.Examples.IRIS_Default_Test",
       "simulation": {
         "timeout": 240
+      },
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 240 s"
+        }
       }
     },
     {
       "model": "TRANSFORM.Fluid.Examples.TritiumExamples.HumTest",
       "simulation": {
         "timeout": 240
+      },
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 240 s (cause not found)"
+        }
       }
     },
     {
@@ -196,7 +236,12 @@
       },
       "variables": [
         "permeator.wall.materials[1,10].T"
-      ]
+      ],
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 240 s (cause not found)"
+        }
+      }
     },
     {
       "model": "TRANSFORM.Fluid.Volumes.Examples.Pressurizer_Test",
@@ -216,12 +261,22 @@
       "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Drift_Test_flat",
       "simulation": {
         "timeout": 240
+      },
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica cannot resolve the medium's extraPropertiesNames taken from a component's summary_data"
+        }
       }
     },
     {
       "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Drift_Test_sine",
       "simulation": {
         "timeout": 240
+      },
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica cannot resolve the medium's extraPropertiesNames taken from a component's summary_data"
+        }
       }
     },
     {
@@ -231,12 +286,22 @@
       },
       "simulation": {
         "timeout": 240
+      },
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica cannot resolve the medium's extraPropertiesNames taken from a component's summary_data"
+        }
       }
     },
     {
       "model": "TRANSFORM.Nuclear.ReactorKinetics.Examples.PointKinetics_Drift_Test_feedback_Xenon",
       "simulation": {
         "timeout": 240
+      },
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica cannot resolve the medium's extraPropertiesNames taken from a component's summary_data"
+        }
       }
     },
     {
@@ -261,6 +326,11 @@
       "model": "TRANSFORM.Examples.MoltenSaltReactor.MSDR_noBOP",
       "simulation": {
         "timeout": 240
+      },
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica cannot resolve the medium's extraPropertiesNames taken from a component's summary_data"
+        }
       }
     },
     {
@@ -302,6 +372,126 @@
       "variables": [
         "innerSide.R[1]"
       ]
+    },
+    {
+      "model": "TRANSFORM.Fluid.Examples.RankineCycle",
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica internal error in state selection (BackendDAEEXT.setAssignment)"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.Fluid.Machines.Examples.SteamTurbineStodolaTests.RankineCycle_Example8_1",
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica internal error in state selection (BackendDAEEXT.setAssignment)"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.Fluid.Machines.Examples.SteamTurbineStodolaTests.RankineCycle_Example8_12",
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica internal error in state selection (BackendDAEEXT.setAssignment)"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.Fluid.Pipes.Examples.GenericPipe_Tests.withWallTrace",
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 60 s: OpenModelica's solver is too slow on it"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatExchangers.Examples.WaterWater_STHX_withMass",
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 60 s: OpenModelica's solver is too slow on it"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.Fluid.Pipes.Examples.TransportDelayPipeTests.CheckDelayTime",
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica requires spatialDistribution's positiveVelocity to be discrete; TransportDelayPipe passes a continuous one"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.Fluid.Pipes.Examples.TransportDelayPipeTests.Test1_MultiSpeciesMultiTrace",
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica requires spatialDistribution's positiveVelocity to be discrete; TransportDelayPipe passes a continuous one"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.Fluid.Pipes.Examples.TransportDelayPipeTests.Test2_MultiSpeciesMultiTrace",
+      "backends": {
+        "OpenModelica": {
+          "skip": "does not translate: OpenModelica requires spatialDistribution's positiveVelocity to be discrete; TransportDelayPipe passes a continuous one"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.Fluid.Volumes.Examples.ExpansionTank2_Test",
+      "backends": {
+        "OpenModelica": {
+          "skip": "stalls: at tolerance 1e-4 it chatters on resistance1.m_flow > 0 from t = 30 s"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.WindingDiscretizedModels.Winding_123D",
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 60 s: the 3-D winding models take over 500 s just to translate"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.WindingDiscretizedModels.Winding_123D_variableArea",
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 60 s: the 3-D winding models take over 500 s just to translate"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.WindingDiscretizedModels.Winding_123D_withMass",
+      "backends": {
+        "OpenModelica": {
+          "skip": "times out at 60 s: the 3-D winding models take over 500 s just to translate"
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.Example_1_3_1_MagneticAblation.part_a_TemperatureThermoseedTissue",
+      "backends": {
+        "OpenModelica": {
+          "timeout": 240
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.Example_1_3_1_MagneticAblation.part_b1_LesionExtent",
+      "backends": {
+        "OpenModelica": {
+          "timeout": 240
+        }
+      }
+    },
+    {
+      "model": "TRANSFORM.HeatAndMassTransfer.Examples.ExamplesFrom_NellisAndKlein.Example_1_3_1_MagneticAblation.part_b2_LesionExtentwithBloodPerfusion",
+      "backends": {
+        "OpenModelica": {
+          "timeout": 240
+        }
+      }
     }
   ]
 }
