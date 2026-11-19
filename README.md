@@ -133,3 +133,25 @@ The work folder holds `run.mos`, `progress.txt`, `dymola.log`,
 it is a new temp folder, deleted after a pass or a "not bumped" result and kept
 after a failure, error or timeout; `--keep` keeps it always, and a folder given
 with `--work` is never deleted.
+
+## OpenModelica load check
+
+`scripts/check_om_load.py` loads TRANSFORM in OpenModelica and fails on any
+Warning or Error that names a TRANSFORM file. OpenModelica prints such a
+message for every model a user loads; one example is a `package.order` that
+lists a package's classes in a different order from its `package.mo`. Run it
+with the conversion guard before merging any library PR that changes
+`TRANSFORM/` (needs OpenModelica and Python 3; it copies `TRANSFORM/` to a temp
+folder first: OpenModelica loads the copy in about 3 s, and copying a library
+from `/mnt/...` takes about 40 s):
+
+```bash
+python3 scripts/check_om_load.py                        # library at ../TRANSFORM-Library
+python3 scripts/check_om_load.py --library PATH --omc omc
+```
+
+Exit codes: `0` pass; `1` a Warning or Error names a TRANSFORM file, or an
+Error names no file (each is printed once), or `loadFile` failed; `2` setup
+error (no `omc`, the Modelica library did not load, the copy failed), timeout
+(`--timeout`, default 600 s), `omc` failed, or no result. Its unit tests use a fake `omc` and need no
+OpenModelica: `python3 -m unittest scripts/test_check_om_load.py`.
